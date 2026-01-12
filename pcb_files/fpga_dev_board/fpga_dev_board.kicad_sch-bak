@@ -4596,7 +4596,7 @@
 		)
 		(uuid "e2c37a45-6cca-43d5-ac47-5cf3806a7258")
 	)
-	(text "TO DO \n\n - rename the pins\n "
+	(text "TO DO \n\n - rename the pins\n - make the usb connections "
 		(exclude_from_sim no)
 		(at 181.864 114.808 0)
 		(effects
@@ -4925,7 +4925,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 13.97) (xy 13.97 99.06)
+			(xy 15.24 13.97) (xy 13.97 99.06)
 		)
 		(stroke
 			(width 0)
