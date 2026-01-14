@@ -1,0 +1,81 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (uuid "03bd6c21-293c-4765-830e-c06409f655f8")
+  (paper "A4")
+
+  ;; ---------------- GROUND ----------------
+  (symbol
+    (lib_id "Simulation_SPICE:0")
+    (at 76.2 114.3 0)
+    (property "Reference" "#GND01")
+    (property "Value" "0")
+  )
+
+  ;; ---------------- SUPPLY ----------------
+  (symbol
+    (lib_id "Simulation_SPICE:VDC")
+    (at 40.64 97.79 0)
+    (property "Reference" "V1")
+    (property "Value" "5")
+  )
+
+  ;; Source resistance (REAL SUPPLY)
+  (symbol
+    (lib_id "Device:R")
+    (at 48.26 82.55 90)
+    (property "Reference" "Rsrc")
+    (property "Value" "50m")
+  )
+
+  ;; Source inductance (TRACE / PLANE)
+  (symbol
+    (lib_id "Device:L")
+    (at 57.15 82.55 90)
+    (property "Reference" "L1")
+    (property "Value" "1n")
+  )
+
+  ;; ---------------- DECOUPLING CAPS ----------------
+  (symbol
+    (lib_id "Device:C")
+    (at 64.77 90.17 0)
+    (property "Reference" "C1")
+    (property "Value" "100n")
+  )
+
+  (symbol
+    (lib_id "Device:C")
+    (at 76.2 90.17 0)
+    (property "Reference" "C2")
+    (property "Value" "100n")
+  )
+
+  (symbol
+    (lib_id "Device:C")
+    (at 87.63 90.17 0)
+    (property "Reference" "C3")
+    (property "Value" "100n")
+  )
+
+  ;; ---------------- TRANSIENT LOAD ----------------
+  (symbol
+    (lib_id "Simulation_SPICE:I")
+    (at 101.6 97.79 0)
+    (property "Reference" "Iload")
+    (property "Value" "PULSE(0 0.5 1u 1n 1n 50n 200n)")
+  )
+
+  ;; ---------------- AC IMPEDANCE TEST ----------------
+  (symbol
+    (lib_id "Simulation_SPICE:I")
+    (at 101.6 82.55 0)
+    (property "Reference" "Iac")
+    (property "Value" "AC 1")
+  )
+
+  ;; ---------------- NET LABEL ----------------
+  (label "vcc" (at 90 82.55 0))
+
+)
+
