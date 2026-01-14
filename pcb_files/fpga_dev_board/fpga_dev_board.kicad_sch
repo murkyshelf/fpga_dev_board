@@ -4740,7 +4740,7 @@
 		)
 		(uuid "af203e0d-de5b-44f0-b940-c763abd8bf03")
 	)
-	(text "QSPI/Programming"
+	(text "SPI - Programming"
 		(exclude_from_sim no)
 		(at 119.38 151.13 0)
 		(effects
@@ -15120,7 +15120,7 @@
 				)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "5k1"
 			(at 166.37 91.44 90)
 			(effects
 				(font
@@ -19245,7 +19245,7 @@
 				)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "5k1"
 			(at 166.37 83.82 90)
 			(effects
 				(font
