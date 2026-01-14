@@ -9183,7 +9183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pkl_dipol:C_0603"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 110.1852 38.1 0)
 			(effects
 				(font
@@ -9334,7 +9334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pkl_dipol:C_0603"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 138.1252 38.1 0)
 			(effects
 				(font
@@ -9550,7 +9550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pkl_dipol:C_0603"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 105.1052 68.58 0)
 			(effects
 				(font
@@ -9701,7 +9701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pkl_dipol:C_0603"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 136.8552 68.58 0)
 			(effects
 				(font
@@ -10091,7 +10091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pkl_dipol:C_0603"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 51.0032 29.0322 0)
 			(effects
 				(font
