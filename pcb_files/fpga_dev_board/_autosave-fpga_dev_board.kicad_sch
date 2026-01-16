@@ -1011,6 +1011,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4148W"
 			(pin_numbers
 				(hide yes)
@@ -4746,236 +4873,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "icebreaker-bitsy-rescue:pkl_R4_Small-pkl_device"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "pkl_device_pkl_R4_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "pkl_R4_Small-pkl_device_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "pkl_R4_Small-pkl_device_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "pkl_R4_Small-pkl_device_2_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "pkl_R4_Small-pkl_device_3_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "pkl_R4_Small-pkl_device_4_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device"
 			(pin_numbers
 				(hide yes)
@@ -5519,9 +5416,9 @@
 		)
 		(uuid "07c128f9-c9d0-40d8-a3c0-9cdd86ab757a")
 	)
-	(text "USB-C POWER"
+	(text "USB-C POWER -P4"
 		(exclude_from_sim no)
-		(at 155.448 64.77 0)
+		(at 159.258 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5529,9 +5426,9 @@
 		)
 		(uuid "08b94b64-ff94-437a-87b2-a563ae82b008")
 	)
-	(text "POWER\n"
+	(text "POWER -P\n\n"
 		(exclude_from_sim no)
-		(at 19.05 16.002 0)
+		(at 20.574 18.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5601,7 +5498,7 @@
 		)
 		(uuid "667126cb-c0e4-481e-940f-08adc8591ce7")
 	)
-	(text "1V2 VReg"
+	(text "1V2 VReg -P2\n"
 		(exclude_from_sim no)
 		(at 83.566 51.562 0)
 		(effects
@@ -5612,7 +5509,17 @@
 		)
 		(uuid "6d7a5280-bd0c-4f1d-b167-2f458c461117")
 	)
-	(text "Power Pins"
+	(text "GPIO PINS -G2"
+		(exclude_from_sim no)
+		(at 248.92 102.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "738369cc-1f19-46f1-94eb-0c264ba7447c")
+	)
+	(text "Power Pins -P3\n"
 		(exclude_from_sim no)
 		(at 83.312 80.518 0)
 		(effects
@@ -5623,9 +5530,9 @@
 		)
 		(uuid "83344a40-2f1b-4da9-9232-048ec776e95d")
 	)
-	(text "CLOCK"
+	(text "CLOCK -C"
 		(exclude_from_sim no)
-		(at 191.008 16.002 0)
+		(at 192.278 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5676,7 +5583,7 @@
 		)
 		(uuid "a7a67618-2af0-4e9c-b2b4-0d8c45b5f720")
 	)
-	(text "LCD"
+	(text "LCD -L"
 		(exclude_from_sim no)
 		(at 150.876 16.51 0)
 		(effects
@@ -5728,9 +5635,9 @@
 		)
 		(uuid "bdadb6cd-4cf5-4c64-bbdd-ff23b3bb14a8")
 	)
-	(text "BUTTONS\n"
+	(text "BUTTONS -B\n"
 		(exclude_from_sim no)
-		(at 223.52 64.516 0)
+		(at 225.806 65.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5738,7 +5645,7 @@
 		)
 		(uuid "c2900292-de1e-48cb-9669-5377cbfa1d24")
 	)
-	(text "3V3 LDOs"
+	(text "3V3 LDOs -P1"
 		(exclude_from_sim no)
 		(at 89.154 16.51 0)
 		(effects
@@ -5769,9 +5676,9 @@
 		)
 		(uuid "d99177b2-3fd9-424a-ab70-399d07b985fc")
 	)
-	(text "GPIO PINS"
+	(text "GPIO PINS -G1"
 		(exclude_from_sim no)
-		(at 122.936 103.124 0)
+		(at 124.46 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5779,15 +5686,25 @@
 		)
 		(uuid "dd12e53c-8ec0-482a-8f0d-ee7572593792")
 	)
-	(text "SPI FLASH\n"
+	(text "SPI FLASH - F\n"
 		(exclude_from_sim no)
-		(at 20.828 103.886 0)
+		(at 23.114 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "e2c37a45-6cca-43d5-ac47-5cf3806a7258")
+	)
+	(text "* pins near main chip \"@\""
+		(exclude_from_sim no)
+		(at 269.748 15.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb3c7315-105f-4898-8e93-7e9b85dda87d")
 	)
 	(text "TO DO \n\n - rename the pins\n "
 		(exclude_from_sim no)
@@ -9632,7 +9549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a52417f")
-		(property "Reference" "R8"
+		(property "Reference" "C_R8"
 			(at 190.5 27.94 90)
 			(effects
 				(font
@@ -9702,7 +9619,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R8")
+					(reference "C_R8")
 					(unit 1)
 				)
 			)
@@ -9718,8 +9635,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a683135")
-		(property "Reference" "C13"
-			(at 49.53 59.69 90)
+		(property "Reference" "@P_C13"
+			(at 49.53 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,7 +9707,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C13")
+					(reference "@P_C13")
 					(unit 1)
 				)
 			)
@@ -9806,8 +9723,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a68313c")
-		(property "Reference" "C14"
-			(at 44.45 59.69 90)
+		(property "Reference" "@P_C14"
+			(at 44.196 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +9795,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C14")
+					(reference "@P_C14")
 					(unit 1)
 				)
 			)
@@ -9894,8 +9811,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a683143")
-		(property "Reference" "C15"
-			(at 39.37 59.69 90)
+		(property "Reference" "@P_C15"
+			(at 39.116 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +9883,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C15")
+					(reference "@P_C15")
 					(unit 1)
 				)
 			)
@@ -9981,7 +9898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a6d32bc")
-		(property "Reference" "C2"
+		(property "Reference" "P1_C2"
 			(at 109.855 31.75 0)
 			(effects
 				(font
@@ -10052,7 +9969,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C2")
+					(reference "P1_C2")
 					(unit 1)
 				)
 			)
@@ -10132,7 +10049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a6d32d2")
-		(property "Reference" "C3"
+		(property "Reference" "P1_C3"
 			(at 137.795 31.75 0)
 			(effects
 				(font
@@ -10203,7 +10120,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C3")
+					(reference "P1_C3")
 					(unit 1)
 				)
 			)
@@ -10348,7 +10265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a6d32f5")
-		(property "Reference" "C4"
+		(property "Reference" "P2_C4"
 			(at 104.775 62.23 0)
 			(effects
 				(font
@@ -10419,7 +10336,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C4")
+					(reference "P2_C4")
 					(unit 1)
 				)
 			)
@@ -10499,7 +10416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a6d330b")
-		(property "Reference" "C5"
+		(property "Reference" "P2_C5"
 			(at 136.525 62.23 0)
 			(effects
 				(font
@@ -10570,7 +10487,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C5")
+					(reference "P2_C5")
 					(unit 1)
 				)
 			)
@@ -10715,7 +10632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a87208d")
-		(property "Reference" "R14"
+		(property "Reference" "@P_R14"
 			(at 69.85 38.1 90)
 			(effects
 				(font
@@ -10785,7 +10702,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R14")
+					(reference "@P_R14")
 					(unit 1)
 				)
 			)
@@ -10801,8 +10718,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a88d14b")
-		(property "Reference" "C9"
-			(at 62.23 31.75 90)
+		(property "Reference" "@P_C9"
+			(at 60.452 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,7 +10790,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C9")
+					(reference "@P_C9")
 					(unit 1)
 				)
 			)
@@ -10889,8 +10806,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a88d83c")
-		(property "Reference" "C19"
-			(at 52.07 31.75 90)
+		(property "Reference" "@P_C19"
+			(at 50.038 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,7 +10816,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 52.07 25.4 90)
+			(at 50.292 25.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10961,7 +10878,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C19")
+					(reference "@P_C19")
 					(unit 1)
 				)
 			)
@@ -11042,8 +10959,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a8f9d2f")
-		(property "Reference" "C16"
-			(at 34.29 59.69 90)
+		(property "Reference" "@P_C16"
+			(at 34.036 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,7 +11031,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C16")
+					(reference "@P_C16")
 					(unit 1)
 				)
 			)
@@ -11130,8 +11047,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a8f9e6d")
-		(property "Reference" "C17"
-			(at 29.21 59.69 90)
+		(property "Reference" "@P_C17"
+			(at 28.956 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +11119,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C17")
+					(reference "@P_C17")
 					(unit 1)
 				)
 			)
@@ -11218,8 +11135,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a8fa13f")
-		(property "Reference" "C18"
-			(at 24.13 59.69 90)
+		(property "Reference" "@P_C18"
+			(at 22.352 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11290,7 +11207,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C18")
+					(reference "@P_C18")
 					(unit 1)
 				)
 			)
@@ -11435,7 +11352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a9af5cf")
-		(property "Reference" "R7"
+		(property "Reference" "P1_R7"
 			(at 93.98 26.67 90)
 			(effects
 				(font
@@ -11505,7 +11422,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R7")
+					(reference "P1_R7")
 					(unit 1)
 				)
 			)
@@ -11521,7 +11438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a9b1132")
-		(property "Reference" "C1"
+		(property "Reference" "P1_C1"
 			(at 97.155 31.75 0)
 			(effects
 				(font
@@ -11593,216 +11510,8 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C1")
+					(reference "P1_C1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R4_Small-pkl_device")
-		(at 44.45 158.75 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ab5ae47")
-		(property "Reference" "R1"
-			(at 50.8 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 41.91 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 44.45 158.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 158.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "ANY"
-			(at 44.45 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-10k"
-			(at 232.41 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a01168a8-6390-42f3-8026-72a510a91c84")
-		)
-		(pin "8"
-			(uuid "ce31021a-d39c-4aaa-8384-11f928a58fed")
-		)
-		(pin "2"
-			(uuid "4bdabe24-1557-4d1f-a4f5-b78a9e295d9f")
-		)
-		(pin "3"
-			(uuid "3f71a3f6-2bd9-4a55-839e-52c490dea2c0")
-		)
-		(pin "4"
-			(uuid "39c26a3d-6cb4-4bd0-ab91-eb9b4a7ba5c0")
-		)
-		(pin "5"
-			(uuid "5891d9ea-f150-4388-9afa-5448f11f43bd")
-		)
-		(pin "6"
-			(uuid "3bb9689f-01ca-467c-8a76-745a3c13a8be")
-		)
-		(pin "7"
-			(uuid "65795870-d2f2-4111-8270-e8e073e6a876")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R1")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R4_Small-pkl_device")
-		(at 44.45 156.21 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ab5b376")
-		(property "Reference" "R1"
-			(at 50.8 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 41.91 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 44.45 156.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 156.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "ANY"
-			(at 44.45 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-10k"
-			(at 232.41 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb78a486-6ec7-4023-866e-6df264686f55")
-		)
-		(pin "3"
-			(uuid "e5a34fe2-028a-4308-a716-3cd31dcbc33f")
-		)
-		(pin "4"
-			(uuid "d4ee00f5-b286-471d-a3c1-c87fc543927f")
-		)
-		(pin "5"
-			(uuid "9b86cbc8-1f68-4994-ab3e-f4817ca9256d")
-		)
-		(pin "6"
-			(uuid "08931219-c23c-4e24-af3c-1959666746ce")
-		)
-		(pin "7"
-			(uuid "2641137f-6e23-41c4-9506-23a8b3c97231")
-		)
-		(pin "8"
-			(uuid "99b63329-75d0-4d9e-bd91-a80181dcd379")
-		)
-		(pin "1"
-			(uuid "1828811c-f3cc-431f-b786-6f48d360b7b8")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R1")
-					(unit 3)
 				)
 			)
 		)
@@ -11881,7 +11590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b96c45e")
-		(property "Reference" "R12"
+		(property "Reference" "L_R12"
 			(at 175.26 36.83 90)
 			(effects
 				(font
@@ -11951,7 +11660,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R12")
+					(reference "L_R12")
 					(unit 1)
 				)
 			)
@@ -11966,7 +11675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b96d321")
-		(property "Reference" "R11"
+		(property "Reference" "L_R11"
 			(at 175.26 26.67 90)
 			(effects
 				(font
@@ -12036,7 +11745,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R11")
+					(reference "L_R11")
 					(unit 1)
 				)
 			)
@@ -12279,7 +11988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d5799b3")
-		(property "Reference" "R10"
+		(property "Reference" "B_R10"
 			(at 232.41 76.2 90)
 			(effects
 				(font
@@ -12349,7 +12058,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R10")
+					(reference "B_R10")
 					(unit 1)
 				)
 			)
@@ -12429,7 +12138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e25ed10")
-		(property "Reference" "R13"
+		(property "Reference" "L_R13"
 			(at 175.26 46.99 90)
 			(effects
 				(font
@@ -12499,7 +12208,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R13")
+					(reference "L_R13")
 					(unit 1)
 				)
 			)
@@ -12729,7 +12438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pkl_misc:Oscillator_SMD_SCTF_S2DXX-4Pin_2.5x2.0mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
 			(at 226.06 41.91 0)
 			(effects
 				(font
@@ -14054,110 +13763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R4_Small-pkl_device")
-		(at 44.45 153.67 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d88c187-b4f1-4b36-b0ea-f8e49b8d3579")
-		(property "Reference" "R1"
-			(at 50.8 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 41.91 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 44.45 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "ANY"
-			(at 44.45 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-10k"
-			(at 232.41 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb78a486-6ec7-4023-866e-6df264686f56")
-		)
-		(pin "3"
-			(uuid "eb43332b-e556-4014-8685-6caf48585d0f")
-		)
-		(pin "4"
-			(uuid "c2da9571-ab6e-4ded-a8a6-3ebd519e60ac")
-		)
-		(pin "5"
-			(uuid "9b86cbc8-1f68-4994-ab3e-f4817ca9256e")
-		)
-		(pin "6"
-			(uuid "08931219-c23c-4e24-af3c-1959666746cf")
-		)
-		(pin "7"
-			(uuid "2641137f-6e23-41c4-9506-23a8b3c97232")
-		)
-		(pin "8"
-			(uuid "99b63329-75d0-4d9e-bd91-a80181dcd37a")
-		)
-		(pin "1"
-			(uuid "1828811c-f3cc-431f-b786-6f48d360b7b9")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
 		(at 208.28 21.59 0)
 		(unit 1)
@@ -14306,7 +13911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "171b1e6f-1928-4931-b3be-1899d1e38c29")
-		(property "Reference" "C10"
+		(property "Reference" "C_C10"
 			(at 217.3732 18.9738 90)
 			(effects
 				(font
@@ -14378,7 +13983,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C10")
+					(reference "C_C10")
 					(unit 1)
 				)
 			)
@@ -14459,8 +14064,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c3b93a7-6132-4bf7-a4e0-15044dd39dd9")
-		(property "Reference" "C12"
-			(at 256.54 104.14 90)
+		(property "Reference" "@G2_C12"
+			(at 262.636 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14531,7 +14136,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C12")
+					(reference "@G2_C12")
 					(unit 1)
 				)
 			)
@@ -14898,110 +14503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R4_Small-pkl_device")
-		(at 44.45 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c4f7ea7-c602-4ce5-b1c1-d96c376e6268")
-		(property "Reference" "R1"
-			(at 50.8 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 41.91 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 44.45 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "ANY"
-			(at 44.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "res-0402cv-array-4-10k"
-			(at 232.41 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb78a486-6ec7-4023-866e-6df264686f57")
-		)
-		(pin "3"
-			(uuid "d49b72dc-f492-4d58-a4fe-d23ff78e479d")
-		)
-		(pin "4"
-			(uuid "34726442-50fa-4cb7-8be7-eb30a544e2ed")
-		)
-		(pin "5"
-			(uuid "9b86cbc8-1f68-4994-ab3e-f4817ca9256f")
-		)
-		(pin "6"
-			(uuid "08931219-c23c-4e24-af3c-1959666746d0")
-		)
-		(pin "7"
-			(uuid "2641137f-6e23-41c4-9506-23a8b3c97233")
-		)
-		(pin "8"
-			(uuid "99b63329-75d0-4d9e-bd91-a80181dcd37b")
-		)
-		(pin "1"
-			(uuid "1828811c-f3cc-431f-b786-6f48d360b7ba")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
 		(at 260.35 90.17 270)
 		(unit 1)
@@ -15010,8 +14511,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4847a8e6-3374-41c5-977f-ff791e6c1f30")
-		(property "Reference" "C21"
-			(at 255.27 91.44 90)
+		(property "Reference" "B_C21"
+			(at 255.778 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15082,7 +14583,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C21")
+					(reference "B_C21")
 					(unit 1)
 				)
 			)
@@ -15817,6 +15318,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 44.45 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9aea9c92-9d12-48e4-aaff-f59d00bb6d5d")
+		(property "Reference" "R7"
+			(at 48.514 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 39.878 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 44.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 44.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "833a7b97-8a39-42c6-b9f8-2d9fe432b388")
+		)
+		(pin "1"
+			(uuid "52e40500-c608-40fa-a8f2-e5f23cbb8d47")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
 		(at 194.31 151.13 0)
 		(unit 1)
@@ -15885,6 +15453,73 @@
 			(project ""
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 44.45 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a79b98c7-2a99-4fc4-8891-aacd4f74090e")
+		(property "Reference" "R6"
+			(at 48.514 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 39.878 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b773c9d-5804-4d96-94a5-309c37835e0c")
+		)
+		(pin "1"
+			(uuid "7116ce8c-b1f0-41d2-bb00-056010f82218")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16753,6 +16388,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 44.45 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7e75c2b-1b57-4b73-894b-a4b86c505fe2")
+		(property "Reference" "R1"
+			(at 48.514 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.132 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 44.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 44.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55f0160a-fbbf-4f35-bb61-140473c3b6b0")
+		)
+		(pin "1"
+			(uuid "4f608594-7b15-4131-b8a3-42cbe98d3198")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
 		(at 146.05 102.87 270)
 		(unit 1)
@@ -16761,8 +16463,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d11cf2af-7e97-4791-b313-1ed9d7858356")
-		(property "Reference" "C6"
-			(at 140.97 104.14 90)
+		(property "Reference" "@G1_C6"
+			(at 144.272 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16833,7 +16535,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C6")
+					(reference "@G1_C6")
 					(unit 1)
 				)
 			)
@@ -16914,8 +16616,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d360bf2a-7bcc-458d-8b47-a20522864070")
-		(property "Reference" "C20"
-			(at 222.25 91.44 90)
+		(property "Reference" "B_C20"
+			(at 222.504 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16986,7 +16688,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C20")
+					(reference "B_C20")
 					(unit 1)
 				)
 			)
@@ -17240,7 +16942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da3f1834-244f-4902-8b8f-6a59ad90a5e1")
-		(property "Reference" "R6"
+		(property "Reference" "B_R6"
 			(at 265.43 76.2 90)
 			(effects
 				(font
@@ -17310,7 +17012,7 @@
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "R6")
+					(reference "B_R6")
 					(unit 1)
 				)
 			)
@@ -17464,6 +17166,73 @@
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 44.45 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e63d778b-ad75-4334-bd2b-4f3a39fcd558")
+		(property "Reference" "R3"
+			(at 48.514 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.132 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 44.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 44.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "459681fc-73cb-4326-a389-5b81ba6642cd")
+		)
+		(pin "1"
+			(uuid "bb79b4f3-42c4-4c2a-be92-3b74ce825af6")
+		)
+		(instances
+			(project ""
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "R3")
 					(unit 1)
 				)
 			)

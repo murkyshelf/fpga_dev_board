@@ -1,6 +1,6 @@
 # fpga
 
-## things i dont know 
+## debug things
 
-- cdone
-- creset
+- check the orientation of the diodes
+

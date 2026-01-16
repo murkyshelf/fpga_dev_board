@@ -1,0 +1,999 @@
+Info: Processing symbol 'R10:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'P35:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P6:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'R12:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'C18:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P5:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P36:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'R11:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'C19:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P4:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P37:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P22:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C20:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P3:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P38:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C21:Capacitor_SMD:C_1206_3216Metric'.
+Info: Total warnings: 6, errors: 7.
+Info: Processing symbol 'R4:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'J1:Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A'.
+Info: Processing symbol 'R5:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'D4:Diode_SMD:D_SOD-123'.
+Info: Processing symbol 'P19:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P33:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'U4:Package_SO:SOIC-8_5.23x5.23mm_P1.27mm'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P23:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P20:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P25:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P18:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P16:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P26:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P31:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P17:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'U2:Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm'.
+Info: Processing symbol 'U3:Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm'.
+Info: Processing symbol 'X1:pkl_misc:Oscillator_SMD_SCTF_S2DXX-4Pin_2.5x2.0mm'.
+Info: Processing symbol 'P24:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P21:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P8:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P30:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P11:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C12:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'R13:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'P7:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P34:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'R14:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'JP4:Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'U1:Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm'.
+Info: Processing symbol 'SW1:Button_Switch_SMD:SW_SPST_B3S-1000'.
+Info: Processing symbol 'P9:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P32:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'SW2:Button_Switch_SMD:SW_SPST_B3S-1000'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P10:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'R6:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'P29:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P12:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'R9:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'R1:Resistor_SMD:R_Array_Convex_4x0402'.
+Info: Processing symbol 'R7:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'D2:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'P1:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P39:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'R8:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'D1:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'P2:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'D3:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P13:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P28:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P14:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'P27:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Info: Processing symbol 'P15:Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical'.
+Changed C3 value from C_1206_3216Metric to 4u7.
+Changed REF** reference designator to C3.
+Added C3 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Connected C2 pin 1 to VIN.
+Connected C2 pin 2 to GND.
+Added C5 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Updated C2 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Updated C2 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C2 sheetname to '/'.
+Updated C6 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Updated C2 symbol association from  to /00000000-0000-0000-0000-00005a6d32bc.
+Changed C2 value from C_1206_3216Metric to 4u7.
+Changed REF** reference designator to C2.
+Added C2 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Updated C3 symbol association from  to /00000000-0000-0000-0000-00005a6d32d2.
+Updated C3 fields.
+Updated C3 sheetname to '/'.
+Updated C3 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C3 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Changed REF** reference designator to C11.
+Updated C9 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C9 pin 2 to GND.
+Connected C9 pin 1 to Net-(U1D-VCCPLL).
+Added C10 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C10.
+Changed C10 value from C_1206_3216Metric to 100n.
+Updated C10 symbol association from  to /171b1e6f-1928-4931-b3be-1899d1e38c29.
+Updated C10 fields.
+Updated C6 symbol association from  to /d11cf2af-7e97-4791-b313-1ed9d7858356.
+Connected P11 pin 1 to /IOT_50b.
+Changed REF** reference designator to C5.
+Changed C5 value from C_1206_3216Metric to 4u7.
+Connected C3 pin 1 to +3V3.
+Updated C5 fields.
+Updated C5 sheetname to '/'.
+Updated C5 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C5 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C5 pin 2 to GND.
+Connected C5 pin 1 to +1V2.
+Added C6 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C6.
+Changed C6 value from C_1206_3216Metric to 100n.
+Connected C1 pin 2 to GND.
+Updated C6 fields.
+Updated C6 sheetname to '/'.
+Updated C6 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C2 fields.
+Added C1 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C1.
+Changed C1 value from C_1206_3216Metric to 1u.
+Updated C1 symbol association from  to /00000000-0000-0000-0000-00005a9b1132.
+Updated C1 fields.
+Updated C1 sheetname to '/'.
+Updated C1 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C1 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C1 pin 1 to Net-(U2-EN).
+Connected C8 pin 2 to GND.
+Updated C7 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C7 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C7 pin 1 to +3V3.
+Connected C7 pin 2 to GND.
+Added C8 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C8.
+Changed REF** reference designator to D3.
+Updated C8 symbol association from  to /00000000-0000-0000-0000-00005bd3be0e.
+Updated C8 fields.
+Updated C8 sheetname to '/'.
+Updated C8 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C8 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C8 pin 1 to Net-(U1D-VPP_2V5).
+Updated C7 sheetname to '/'.
+Added C9 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C9.
+Changed C9 value from C_1206_3216Metric to 100n.
+Updated C9 symbol association from  to /00000000-0000-0000-0000-00005a88d14b.
+Updated C9 fields.
+Updated C9 sheetname to '/'.
+Connected P12 pin 1 to /IOT_51a.
+Updated P11 symbol association from  to /8b33cf9c-bce8-4b66-8f4d-01dcc1b45e31.
+Updated P11 fields.
+Updated P11 sheetname to '/'.
+Updated P11 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P11 footprint filters to 'Connector*:*_1x??_*'.
+Changed REF** reference designator to C17.
+Connected C11 pin 1 to +3V3.
+Updated C10 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C10 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C10 pin 1 to +3V3.
+Connected C10 pin 2 to GND.
+Added C11 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Updated C9 sheetfile to 'fpga_dev_board.kicad_sch'.
+Changed C11 value from C_1206_3216Metric to 100n.
+Updated C11 symbol association from  to /00000000-0000-0000-0000-00006021889f.
+Updated C11 fields.
+Updated C11 sheetname to '/'.
+Updated C11 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C11 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C11 pin 2 to GND.
+Updated C10 sheetname to '/'.
+Added C12 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C12.
+Changed C12 value from C_1206_3216Metric to 100n.
+Updated C12 symbol association from  to /1c3b93a7-6132-4bf7-a4e0-15044dd39dd9.
+Updated C12 fields.
+Changed C8 value from C_1206_3216Metric to 100n.
+Connected C6 pin 2 to GND.
+Connected C6 pin 1 to +3V3.
+Added C7 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C7.
+Changed C7 value from C_1206_3216Metric to 100n.
+Updated C7 symbol association from  to /00000000-0000-0000-0000-00005edf174a.
+Updated C7 fields.
+Updated C15 symbol association from  to /00000000-0000-0000-0000-00005a683143.
+Updated C18 fields.
+Changed REF** reference designator to C14.
+Changed C14 value from C_1206_3216Metric to 100n.
+Updated C14 symbol association from  to /00000000-0000-0000-0000-00005a68313c.
+Updated C14 fields.
+Updated C14 sheetname to '/'.
+Updated C14 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C14 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C14 pin 1 to +1V2.
+Connected C14 pin 2 to GND.
+Added C15 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C15.
+Changed C15 value from C_1206_3216Metric to 1u.
+Connected C13 pin 2 to GND.
+Added D2 (footprint 'LED_SMD:LED_0603_1608Metric').
+Updated C21 fields.
+Updated C21 sheetname to '/'.
+Updated C21 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C21 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C21 pin 2 to GND.
+Connected C21 pin 1 to /~{BTN}.
+Added D1 (footprint 'LED_SMD:LED_0603_1608Metric').
+Changed REF** reference designator to D1.
+Changed D1 value from LED_0603_1608Metric to RED.
+Updated D1 symbol association from  to /00000000-0000-0000-0000-00005b93172b.
+Updated D1 fields.
+Updated D1 sheetname to '/'.
+Added C14 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Updated R10 footprint filters to 'Resistor_* R_*'.
+Changed C17 value from C_1206_3216Metric to 100n.
+Updated C17 symbol association from  to /00000000-0000-0000-0000-00005a8f9e6d.
+Updated C17 fields.
+Updated C17 sheetname to '/'.
+Updated C17 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C17 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C17 pin 1 to +1V2.
+Connected C17 pin 2 to GND.
+Added C18 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C18.
+Changed C18 value from C_1206_3216Metric to 1u.
+Updated C18 symbol association from  to /00000000-0000-0000-0000-00005a8fa13f.
+Updated D1 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C12 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C12 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C12 pin 1 to +3V3.
+Connected C12 pin 2 to GND.
+Added C13 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C13.
+Changed C13 value from C_1206_3216Metric to 10n.
+Updated C13 symbol association from  to /00000000-0000-0000-0000-00005a683135.
+Updated C13 fields.
+Updated C13 sheetname to '/'.
+Updated C13 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C13 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C13 pin 1 to +1V2.
+Added C21 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Updated C19 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C19 pin 2 to GND.
+Updated C12 sheetname to '/'.
+Added C20 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C20.
+Changed C20 value from C_1206_3216Metric to 1u.
+Updated C20 symbol association from  to /d360bf2a-7bcc-458d-8b47-a20522864070.
+Updated C20 fields.
+Updated C20 sheetname to '/'.
+Updated C20 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C20 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C20 pin 1 to /IOB_0a.
+Connected C20 pin 2 to GND.
+Updated C19 sheetfile to 'fpga_dev_board.kicad_sch'.
+Changed REF** reference designator to C21.
+Changed C21 value from C_1206_3216Metric to 1u.
+Updated C5 symbol association from  to /00000000-0000-0000-0000-00005a6d330b.
+Connected C3 pin 2 to GND.
+Added C4 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C4.
+Changed C4 value from C_1206_3216Metric to 4u7.
+Updated C4 symbol association from  to /00000000-0000-0000-0000-00005a6d32f5.
+Updated C4 fields.
+Updated C4 sheetname to '/'.
+Updated C4 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C4 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C4 pin 1 to VIN.
+Updated D3 fields.
+Updated D1 footprint filters to 'CP* SM*'.
+Updated C21 symbol association from  to /4847a8e6-3374-41c5-977f-ff791e6c1f30.
+Changed REF** reference designator to D2.
+Changed D2 value from LED_0603_1608Metric to GRN.
+Updated D2 symbol association from  to /00000000-0000-0000-0000-00005b93131b.
+Updated D2 fields.
+Updated D2 sheetname to '/'.
+Updated D2 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated D2 footprint filters to 'CP* SM*'.
+Added D3 (footprint 'LED_SMD:LED_0603_1608Metric').
+Changed P21 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Changed D3 value from LED_0603_1608Metric to BLU.
+Updated D3 symbol association from  to /00000000-0000-0000-0000-00005e180c7d.
+Connected C4 pin 2 to GND.
+Updated D3 sheetname to '/'.
+Connected C19 pin 1 to Net-(U1D-VCCPLL).
+Updated C18 sheetname to '/'.
+Updated C18 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C18 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C18 pin 2 to GND.
+Connected C18 pin 1 to +1V2.
+Added C19 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C19.
+Changed C19 value from C_1206_3216Metric to 10u.
+Updated C19 symbol association from  to /00000000-0000-0000-0000-00005a88d83c.
+Updated C19 fields.
+Updated C19 sheetname to '/'.
+Added P1 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated D3 footprint filters to 'CP* SM*'.
+Added D4 (footprint 'Diode_SMD:D_SOD-123').
+Changed REF** reference designator to D4.
+Changed D4 value from D_SOD-123 to 1N4148W.
+Updated D4 symbol association from  to /d88c5981-a496-40f8-973a-9a7b555820b0.
+Updated D4 fields.
+Updated D4 sheetname to '/'.
+Updated D4 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated D4 footprint filters to 'D*SOD?123*'.
+Connected D4 pin 2 to +3V3.
+Connected D4 pin 1 to Net-(D4-K).
+Added J1 (footprint 'Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A').
+Changed REF** reference designator to J1.
+Changed J1 value from USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A to USB_C.
+Updated J1 symbol association from  to /00000000-0000-0000-0000-00005ecfa32e.
+Updated J1 fields.
+Updated J1 sheetname to '/'.
+Updated J1 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated J1 footprint filters to 'USB*C*Receptacle*'.
+Connected J1 pin B7 to unconnected-(J1-D--PadB7).
+Connected J1 pin B5 to Net-(J1-CC2).
+Connected J1 pin S1 to Net-(J1-SHIELD).
+Connected J1 pin B9 to VIN.
+Connected J1 pin B6 to unconnected-(J1-D+-PadB6).
+Connected J1 pin S1 to Net-(J1-SHIELD).
+Connected J1 pin A7 to unconnected-(J1-D--PadA7).
+Connected J1 pin B1 to GND.
+Connected J1 pin B12 to GND.
+Connected J1 pin A4 to VIN.
+Connected J1 pin B8 to unconnected-(J1-SBU2-PadB8).
+Connected J1 pin A9 to VIN.
+Connected J1 pin B4 to VIN.
+Connected J1 pin A1 to GND.
+Connected J1 pin S1 to Net-(J1-SHIELD).
+Connected J1 pin A5 to Net-(J1-CC1).
+Connected J1 pin A6 to unconnected-(J1-D+-PadA6).
+Connected J1 pin S1 to Net-(J1-SHIELD).
+Connected J1 pin A8 to unconnected-(J1-SBU1-PadA8).
+Connected J1 pin A12 to GND.
+Added JP4 (footprint 'Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm').
+Changed REF** reference designator to JP4.
+Updated P6 symbol association from  to /953c2232-158b-4c35-b7fd-12026378a209.
+Updated JP4 symbol association from  to /00000000-0000-0000-0000-00005ed438a0.
+Updated JP4 fields.
+Updated JP4 sheetname to '/'.
+Updated JP4 sheetfile to 'fpga_dev_board.kicad_sch'.
+Removed JP4 'exclude from BOM' fabrication attribute.
+Connected JP4 pin 2 to Net-(U1D-VPP_2V5).
+Connected JP4 pin 1 to Net-(D4-K).
+Connected P7 pin 1 to /IOT_44b.
+Changed REF** reference designator to P1.
+Changed P1 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P1 symbol association from  to /00000000-0000-0000-0000-00005aecdf67.
+Updated P1 fields.
+Updated P1 sheetname to '/'.
+Updated P3 symbol association from  to /8fee6af7-95f0-4ed2-a351-1ca6c59973da.
+Updated P1 footprint filters to 'Connector*:*_1x??_*'.
+Connected P1 pin 1 to /IOT_37a.
+Added P2 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P2.
+Changed P2 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P2 symbol association from  to /2cef9403-46bb-4efa-8775-980dfd3d866c.
+Updated P2 fields.
+Updated P2 sheetname to '/'.
+Updated P2 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P4 footprint filters to 'Connector*:*_1x??_*'.
+Connected P2 pin 1 to /IOT_38b.
+Added P3 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P3.
+Updated P2 footprint filters to 'Connector*:*_1x??_*'.
+Updated P4 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P4 sheetname to '/'.
+Updated P4 fields.
+Updated P4 symbol association from  to /b56d61e2-59d1-412b-8c9c-90f639ce7989.
+Changed P4 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Changed REF** reference designator to P4.
+Added P4 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated P3 footprint filters to 'Connector*:*_1x??_*'.
+Changed P3 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P3 fields.
+Updated P3 sheetname to '/'.
+Updated P3 sheetfile to 'fpga_dev_board.kicad_sch'.
+Connected P3 pin 1 to /IOT_39a.
+Updated P5 fields.
+Connected P4 pin 1 to /IOT_41a.
+Added P5 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P5.
+Changed P5 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P5 symbol association from  to /6c6567ab-4af2-41cc-bf47-2abe5b4d69d4.
+Updated P1 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P5 sheetname to '/'.
+Updated P5 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P5 footprint filters to 'Connector*:*_1x??_*'.
+Connected P5 pin 1 to /IOT_42b.
+Added P6 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P6.
+Changed P6 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Changed JP4 value from SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm to Jumper.
+Updated P6 fields.
+Updated P6 sheetname to '/'.
+Updated P6 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P6 footprint filters to 'Connector*:*_1x??_*'.
+Connected P6 pin 1 to /IOT_43a.
+Added P7 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P7.
+Changed P7 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P7 symbol association from  to /90cc1812-0c95-40c8-ac29-307916bb896b.
+Updated P7 fields.
+Updated P7 sheetname to '/'.
+Updated P7 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P7 footprint filters to 'Connector*:*_1x??_*'.
+Added P10 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated P8 sheetname to '/'.
+Updated P8 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P8 footprint filters to 'Connector*:*_1x??_*'.
+Connected P8 pin 1 to /IOT_45b.
+Added P9 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P9.
+Changed P9 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P9 symbol association from  to /6dff4769-db47-45c6-8d4f-690fe8cc2c97.
+Updated P9 fields.
+Updated P14 sheetname to '/'.
+Updated P9 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P9 footprint filters to 'Connector*:*_1x??_*'.
+Connected P9 pin 1 to /IOT_48b.
+Updated P8 fields.
+Changed REF** reference designator to P10.
+Changed P10 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P10 symbol association from  to /6aa420b0-c0a7-4ebc-a95b-d68a7c0c2f0b.
+Updated P10 fields.
+Updated P10 sheetname to '/'.
+Updated P10 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P10 footprint filters to 'Connector*:*_1x??_*'.
+Connected P10 pin 1 to /IOT_49a.
+Added P11 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P11.
+Updated P19 sheetname to '/'.
+Connected P17 pin 1 to /IOB_5a.
+Added P18 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated P13 sheetname to '/'.
+Changed REF** reference designator to P12.
+Changed P12 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P12 symbol association from  to /a0bcdce9-a14b-4688-88d5-89501ea35d25.
+Updated P12 fields.
+Updated P12 sheetname to '/'.
+Updated P12 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P12 footprint filters to 'Connector*:*_1x??_*'.
+Changed P11 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Added P13 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P13.
+Changed P13 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P13 symbol association from  to /67994115-2027-47e2-bf8e-fd6051587ac8.
+Updated P13 fields.
+Changed REF** reference designator to P18.
+Updated P13 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P13 footprint filters to 'Connector*:*_1x??_*'.
+Connected P13 pin 1 to /IOB_6a.
+Added P14 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P14.
+Changed P14 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P14 symbol association from  to /81cf095a-2b3a-49d8-be34-1670b6ade8c8.
+Updated P14 fields.
+Updated P9 sheetname to '/'.
+Added P8 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P8.
+Changed P8 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated D3 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P8 symbol association from  to /fc10b2e1-c27c-4bf0-9759-f9ed24c86fd6.
+Updated P14 footprint filters to 'Connector*:*_1x??_*'.
+Connected P14 pin 1 to /IOB_2a.
+Added P15 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P15.
+Changed P15 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P15 symbol association from  to /c11ff781-80b2-46df-a4d7-e9a13975cb08.
+Updated P15 fields.
+Updated P15 sheetname to '/'.
+Updated P15 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P15 footprint filters to 'Connector*:*_1x??_*'.
+Connected P15 pin 1 to /IOB_3a_G6.
+Added P16 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P16.
+Updated P14 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P16 symbol association from  to /222d9d63-cee2-4bb7-bcb8-b61f9d6d647a.
+Updated P16 fields.
+Updated P16 sheetname to '/'.
+Updated P16 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P16 footprint filters to 'Connector*:*_1x??_*'.
+Connected P16 pin 1 to /IOB_4a.
+Added P17 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P17.
+Changed P17 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P17 symbol association from  to /3c1febcb-fc6e-4bda-ac58-abd4fc5afc7d.
+Updated P17 fields.
+Updated P17 sheetname to '/'.
+Updated P17 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P19 footprint filters to 'Connector*:*_1x??_*'.
+Changed P18 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P18 symbol association from  to /658a0112-dc39-4dc9-8bb7-31c1102443a3.
+Updated P18 fields.
+Updated P18 sheetname to '/'.
+Updated P18 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P18 footprint filters to 'Connector*:*_1x??_*'.
+Connected P18 pin 1 to /IOB_8a.
+Added P19 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P19.
+Updated P19 symbol association from  to /760ce5a0-ea96-4828-ba9a-659a824aa502.
+Updated P19 fields.
+Updated P17 footprint filters to 'Connector*:*_1x??_*'.
+Updated P19 sheetfile to 'fpga_dev_board.kicad_sch'.
+Added P12 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Connected P19 pin 1 to /IOB_9a.
+Added P20 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P20.
+Changed P20 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P20 symbol association from  to /27d80552-8079-4ff3-9fa1-20c31cb85111.
+Updated P20 fields.
+Updated P20 sheetname to '/'.
+Updated P20 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P20 footprint filters to 'Connector*:*_1x??_*'.
+Connected P20 pin 1 to /10B_25b_G3.
+Added P21 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P21.
+Changed P16 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Added P24 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated P25 sheetname to '/'.
+Added P28 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P28.
+Changed P28 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Connected P33 pin 1 to /10B_16a.
+Updated P32 footprint filters to 'Connector*:*_1x??_*'.
+Connected P32 pin 1 to +3V3.
+Added P33 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P33.
+Changed REF** reference designator to P24.
+Changed P33 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P33 symbol association from  to /a4bb9885-7fc3-4485-b6bb-e652334deed9.
+Updated P33 fields.
+Updated P25 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P33 sheetname to '/'.
+Updated P33 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P33 footprint filters to 'Connector*:*_1x??_*'.
+Updated P32 sheetfile to 'fpga_dev_board.kicad_sch'.
+Connected P23 pin 1 to /10B_22a.
+Added P34 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated P23 footprint filters to 'Connector*:*_1x??_*'.
+Changed REF** reference designator to P34.
+Changed P34 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P34 symbol association from  to /713b8de7-e5d3-43f5-8da9-ff08460cc35d.
+Updated P23 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P34 fields.
+Added P26 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated P26 sheetfile to 'fpga_dev_board.kicad_sch'.
+Added P30 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P30.
+Changed P30 value from PinHeader_1x01_P2.54mm_Vertical to CDONE.
+Updated P30 symbol association from  to /00000000-0000-0000-0000-00005acef6c3.
+Updated P30 fields.
+Updated P30 sheetname to '/'.
+Added P25 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated P27 symbol association from  to /00000000-0000-0000-0000-00005b1151be.
+Changed REF** reference designator to P26.
+Changed P26 value from PinHeader_1x01_P2.54mm_Vertical to GND.
+Updated P26 symbol association from  to /00000000-0000-0000-0000-00005b1a640b.
+Updated P26 fields.
+Updated P26 sheetname to '/'.
+Updated P34 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P26 footprint filters to 'Connector*:*_1x??_*'.
+Connected P26 pin 1 to GND.
+Connected P25 pin 1 to GND.
+Added P27 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P27.
+Changed P27 value from PinHeader_1x01_P2.54mm_Vertical to 3V3.
+Updated P30 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P27 fields.
+Updated P27 sheetname to '/'.
+Updated P27 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P27 footprint filters to 'Connector*:*_1x??_*'.
+Updated P25 footprint filters to 'Connector*:*_1x??_*'.
+Connected P27 pin 1 to +3V3.
+Connected U1 pin 32 to /IOT_43a.
+Connected U1 pin 27 to /IOT_38b.
+Connected U1 pin 46 to /IOB_0a.
+Connected U1 pin 21 to /10B_23a.
+Connected U1 pin 15 to /SPI_SCK.
+Connected U1 pin 11 to /10B_20a.
+Connected U1 pin 38 to /IOT_50b.
+Connected U1 pin 33 to +3V3.
+Connected U1 pin 35 to /CLK.
+Connected U1 pin 3 to /IOB_9a.
+Connected U1 pin 18 to /SPI_~{WP}-IO2.
+Connected U1 pin 14 to /SPI_MOSI-IO0.
+Connected U1 pin 9 to /10B_16a.
+Connected U1 pin 43 to /IOT_49a.
+Connected U1 pin 13 to /10B_24a.
+Connected U1 pin 42 to /IOT_51a.
+Connected U1 pin 44 to /IOB_3a_G6.
+Connected U1 pin 25 to /IOT_36b-~{LEDR}.
+Connected U1 pin 1 to +3V3.
+Connected U1 pin 26 to /IOT_39a.
+Connected U1 pin 30 to +1V2.
+Connected U1 pin 17 to /SPI_MISO-IO1.
+Connected U1 pin 4 to /IOB_8a.
+Connected U1 pin 8 to /~{BTN}.
+Connected U1 pin 36 to /IOT_48b.
+Connected U1 pin 6 to /IOB_13b-~{LEDG}.
+Connected U1 pin 22 to +3V3.
+Connected U1 pin 5 to +1V2.
+Updated P31 sheetname to '/'.
+Updated P34 footprint filters to 'Connector*:*_1x??_*'.
+Connected P34 pin 1 to /SPI_~{CS}.
+Updated P31 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P30 footprint filters to 'Connector*:*_1x??_*'.
+Connected P30 pin 1 to /CDONE.
+Connected P24 pin 1 to /10B_20a.
+Added P31 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P31.
+Changed P31 value from PinHeader_1x01_P2.54mm_Vertical to CRESET.
+Updated P31 symbol association from  to /00000000-0000-0000-0000-00005acef755.
+Updated P24 footprint filters to 'Connector*:*_1x??_*'.
+Updated P24 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P31 fields.
+Changed REF** reference designator to P25.
+Updated P24 sheetname to '/'.
+Updated P23 sheetname to '/'.
+Updated P31 footprint filters to 'Connector*:*_1x??_*'.
+Connected P31 pin 1 to /~{BTN}.
+Updated P24 fields.
+Added P32 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P32.
+Changed P32 value from PinHeader_1x01_P2.54mm_Vertical to 3V3.
+Updated P24 symbol association from  to /b2cd839b-93fa-4c7b-a360-7cca6b6ce5fb.
+Updated P32 symbol association from  to /729097f9-20ec-4b40-8463-761a4c943a04.
+Updated P32 fields.
+Updated P32 sheetname to '/'.
+Changed P24 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P21 fields.
+Connected P35 pin 1 to /SPI_SCK.
+Added P37 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P23.
+Added P36 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P36.
+Changed P36 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Added P23 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated P36 symbol association from  to /80cab195-8fa1-461f-9fbc-89283d344bbf.
+Updated P36 fields.
+Updated P36 sheetname to '/'.
+Updated P36 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P36 footprint filters to 'Connector*:*_1x??_*'.
+Connected P36 pin 1 to /SPI_MISO-IO1.
+Updated P35 footprint filters to 'Connector*:*_1x??_*'.
+Updated R1 sheetname to '/'.
+Updated R1 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R1 footprint filters to 'Resistor_* R_*'.
+Connected R1 pin 7 to +3V3.
+Connected R1 pin 5 to +3V3.
+Connected R1 pin 1 to +3V3.
+Connected R1 pin 2 to /SPI_~{HLD}-IO3.
+Connected R1 pin 6 to /SPI_SCK.
+Updated P21 sheetname to '/'.
+Connected R1 pin 4 to /SPI_~{WP}-IO2.
+Connected R1 pin 3 to +3V3.
+Connected R1 pin 8 to /SPI_~{CS}.
+Updated P21 sheetfile to 'fpga_dev_board.kicad_sch'.
+Added P38 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated P37 sheetfile to 'fpga_dev_board.kicad_sch'.
+Changed REF** reference designator to P37.
+Changed P37 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Connected P22 pin 1 to /10B_23a.
+Updated P37 symbol association from  to /8ab97442-e3f6-47a5-a271-792da0c5d9c0.
+Updated P37 fields.
+Updated P37 sheetname to '/'.
+Updated P38 symbol association from  to /8e01bf72-0c5f-4f43-a5f3-d5245733a45c.
+Updated P22 footprint filters to 'Connector*:*_1x??_*'.
+Updated P37 footprint filters to 'Connector*:*_1x??_*'.
+Connected P37 pin 1 to /SPI_MOSI-IO0.
+Updated P22 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P22 sheetname to '/'.
+Added R2 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Changed REF** reference designator to P38.
+Changed P38 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P22 symbol association from  to /71b9d658-a14c-4778-aa48-693f59bde0ff.
+Changed P23 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P23 fields.
+Added P35 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P35.
+Changed P35 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P23 symbol association from  to /23eb1a86-0106-4172-87b7-4079219c4aa9.
+Updated P35 symbol association from  to /e9da89ca-673e-49b9-914a-4d76fc43b051.
+Updated P35 fields.
+Updated P35 sheetname to '/'.
+Updated P35 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P28 footprint filters to 'Connector*:*_1x??_*'.
+Updated P39 footprint filters to 'Connector*:*_1x??_*'.
+Connected P39 pin 1 to /SPI_~{WP}-IO2.
+Connected P21 pin 1 to /10B_24a.
+Added R1 (footprint 'Resistor_SMD:R_Array_Convex_4x0402').
+Changed REF** reference designator to R1.
+Changed R1 value from R_Array_Convex_4x0402 to 10k.
+Updated R1 symbol association from  to /00000000-0000-0000-0000-00005ab5b376.
+Updated R1 fields.
+Updated P21 footprint filters to 'Connector*:*_1x??_*'.
+Updated P29 sheetname to '/'.
+Updated P28 fields.
+Updated P28 sheetname to '/'.
+Updated P28 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P39 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P25 fields.
+Connected P28 pin 1 to /10B_18a.
+Updated P25 symbol association from  to /00000000-0000-0000-0000-00005b1a6337.
+Added P29 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P29.
+Changed P29 value from PinHeader_1x01_P2.54mm_Vertical to VIN.
+Updated P29 symbol association from  to /00000000-0000-0000-0000-00005b1a6195.
+Updated P29 fields.
+Updated P28 symbol association from  to /c989e0a7-f9a6-48a5-8107-78189d2ce183.
+Updated P29 sheetfile to 'fpga_dev_board.kicad_sch'.
+Changed P25 value from PinHeader_1x01_P2.54mm_Vertical to GND.
+Updated P29 footprint filters to 'Connector*:*_1x??_*'.
+Connected P29 pin 1 to VIN.
+Updated P22 fields.
+Changed REF** reference designator to R2.
+Changed R2 value from R_1206_3216Metric to 1M.
+Updated R2 symbol association from  to /d5a12928-87a5-4b6c-ace5-94f493a04a55.
+Updated R2 fields.
+Changed P19 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated R2 sheetname to '/'.
+Updated R2 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R2 footprint filters to 'Resistor_* R_*'.
+Connected R2 pin 1 to Net-(J1-SHIELD).
+Connected R2 pin 2 to GND.
+Updated P21 symbol association from  to /c13d6b10-a15d-4330-945d-5eb7621f0a2f.
+Updated P39 fields.
+Updated P38 sheetname to '/'.
+Updated C15 fields.
+Updated P38 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated P38 footprint filters to 'Connector*:*_1x??_*'.
+Updated P34 sheetname to '/'.
+Connected P38 pin 1 to /SPI_~{HLD}-IO3.
+Changed P22 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Changed REF** reference designator to P22.
+Added P39 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Changed REF** reference designator to P39.
+Changed P39 value from PinHeader_1x01_P2.54mm_Vertical to 14.
+Updated P39 symbol association from  to /696e748f-88bd-43a8-b38f-f2034cd0a28d.
+Updated P38 fields.
+Added P22 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical').
+Updated P39 sheetname to '/'.
+Changed R13 value from R_1206_3216Metric to 2k2.
+Added R6 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Changed REF** reference designator to R6.
+Changed R6 value from R_1206_3216Metric to 10k.
+Updated R6 symbol association from  to /da3f1834-244f-4902-8b8f-6a59ad90a5e1.
+Updated R6 fields.
+Updated R6 sheetname to '/'.
+Updated R6 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R6 footprint filters to 'Resistor_* R_*'.
+Connected R6 pin 2 to +3V3.
+Updated R14 symbol association from  to /00000000-0000-0000-0000-00005a87208d.
+Connected R12 pin 2 to +3V3.
+Added R13 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Changed REF** reference designator to R13.
+Connected R5 pin 2 to Net-(J1-CC1).
+Updated R13 symbol association from  to /00000000-0000-0000-0000-00005e25ed10.
+Updated R13 fields.
+Updated R13 sheetname to '/'.
+Updated R13 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R13 footprint filters to 'Resistor_* R_*'.
+Connected R13 pin 1 to /CDONE.
+Connected R13 pin 2 to +3V3.
+Added R14 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Changed REF** reference designator to R14.
+Changed R14 value from R_1206_3216Metric to 100E.
+Connected R12 pin 1 to Net-(D2-PadA).
+Updated R14 fields.
+Updated R14 sheetname to '/'.
+Updated R4 sheetname to '/'.
+Changed REF** reference designator to R9.
+Changed R9 value from R_1206_3216Metric to 10k.
+Updated R9 symbol association from  to /7987b94d-cd23-480a-b191-7967e49e5b7d.
+Updated R9 fields.
+Updated R9 sheetname to '/'.
+Updated R9 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R9 footprint filters to 'Resistor_* R_*'.
+Connected R9 pin 2 to /~{BTN}.
+Updated R5 sheetname to '/'.
+Changed REF** reference designator to R4.
+Changed R4 value from R_1206_3216Metric to 5k1.
+Updated R4 symbol association from  to /dd6337ee-0dfb-4217-be60-d6d053bafec2.
+Updated R4 fields.
+Updated R14 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R4 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R4 footprint filters to 'Resistor_* R_*'.
+Connected R4 pin 1 to GND.
+Connected R4 pin 2 to Net-(J1-CC2).
+Added R5 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Changed REF** reference designator to R5.
+Changed R5 value from R_1206_3216Metric to 5k1.
+Updated R5 symbol association from  to /26c09e82-7ca9-4925-bf11-61017ed42f29.
+Updated R5 fields.
+Connected R9 pin 1 to +3V3.
+Updated R5 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R5 footprint filters to 'Resistor_* R_*'.
+Connected R5 pin 1 to GND.
+Updated C15 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R11 footprint filters to 'Resistor_* R_*'.
+Connected R11 pin 1 to Net-(D1-PadA).
+Connected R11 pin 2 to +3V3.
+Added R12 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Changed REF** reference designator to R12.
+Changed R12 value from R_1206_3216Metric to 2k2.
+Updated R12 symbol association from  to /00000000-0000-0000-0000-00005b96c45e.
+Updated R12 fields.
+Updated R12 sheetname to '/'.
+Updated R12 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R12 footprint filters to 'Resistor_* R_*'.
+Connected C16 pin 2 to GND.
+Updated C15 sheetname to '/'.
+Updated R11 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C15 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C15 pin 1 to +1V2.
+Connected C15 pin 2 to GND.
+Added C16 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C16.
+Changed C16 value from C_1206_3216Metric to 10n.
+Updated C16 symbol association from  to /00000000-0000-0000-0000-00005a8f9d2f.
+Updated C16 fields.
+Updated C16 sheetname to '/'.
+Updated C16 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated C16 footprint filters to 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Connected C16 pin 1 to +1V2.
+Added C17 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to R10.
+Updated R14 footprint filters to 'Resistor_* R_*'.
+Connected R14 pin 1 to Net-(U1D-VCCPLL).
+Connected R14 pin 2 to +1V2.
+Added SW1 (footprint 'Button_Switch_SMD:SW_SPST_B3S-1000').
+Changed REF** reference designator to SW1.
+Changed SW1 value from SW_SPST_B3S-1000 to TACT.
+Updated SW1 symbol association from  to /00000000-0000-0000-0000-00005d57921e.
+Updated SW1 fields.
+Updated SW1 sheetname to '/'.
+Updated SW1 sheetfile to 'fpga_dev_board.kicad_sch'.
+Connected SW1 pin 2 to /IOB_0a.
+Updated R11 fields.
+Added R10 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Connected U1 pin 40 to unconnected-(U1A-RGB1-Pad40).
+Changed R10 value from R_1206_3216Metric to 10k.
+Updated R10 symbol association from  to /00000000-0000-0000-0000-00005d5799b3.
+Updated R10 fields.
+Updated R10 sheetname to '/'.
+Updated R10 sheetfile to 'fpga_dev_board.kicad_sch'.
+Connected R10 pin 2 to +3V3.
+Connected R10 pin 1 to /IOB_0a.
+Added R11 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Changed REF** reference designator to R11.
+Changed R11 value from R_1206_3216Metric to 2k2.
+Updated R11 symbol association from  to /00000000-0000-0000-0000-00005b96d321.
+Added R4 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Updated R11 sheetname to '/'.
+Connected U3 pin 2 to unconnected-(U3-NC-Pad2).
+Connected U1 pin 37 to /IOT_45b.
+Connected U1 pin 16 to /SPI_~{CS}.
+Connected U1 pin 24 to Net-(U1D-VPP_2V5).
+Updated U4 symbol association from  to /4feff450-1163-45f0-80d8-c622193a3548.
+Updated U3 fields.
+Updated U3 sheetname to '/'.
+Updated U3 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated U3 footprint filters to 'WSON*1EP*2x2mm*P0.65mm*'.
+Connected U3 pin 7 to GND.
+Connected U3 pin 3 to GND.
+Connected U3 pin 1 to +1V2.
+Connected U3 pin 6 to VIN.
+Connected U3 pin 4 to VIN.
+Connected U1 pin 45 to /IOB_5a.
+Connected U3 pin 5 to unconnected-(U3-NC-Pad5).
+Added U4 (footprint 'Package_SO:SOIC-8_5.23x5.23mm_P1.27mm').
+Changed REF** reference designator to U4.
+Changed U4 value from SOIC-8_5.23x5.23mm_P1.27mm to W25Q128JVS.
+Updated U3 symbol association from  to /00000000-0000-0000-0000-00005f4baffa.
+Updated U4 fields.
+Updated U4 sheetname to '/'.
+Updated U4 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated U4 footprint filters to 'SOIC*5.23x5.23mm*P1.27mm*'.
+Connected U4 pin 7 to /SPI_~{HLD}-IO3.
+Connected U4 pin 4 to GND.
+Connected U4 pin 2 to /SPI_MISO-IO1.
+Connected U4 pin 6 to /SPI_SCK.
+Connected SW2 pin 2 to /~{BTN}.
+Connected U1 pin 31 to /IOT_42b.
+Changed REF** reference designator to U1.
+Connected SW1 pin 1 to GND.
+Connected SW1 pin 2 to /IOB_0a.
+Added SW2 (footprint 'Button_Switch_SMD:SW_SPST_B3S-1000').
+Changed REF** reference designator to SW2.
+Changed SW2 value from SW_SPST_B3S-1000 to TACT.
+Updated SW2 symbol association from  to /16488ea4-c084-420c-a563-ebe5bfd9a0c5.
+Updated SW2 fields.
+Updated SW2 sheetname to '/'.
+Updated SW2 sheetfile to 'fpga_dev_board.kicad_sch'.
+Connected SW2 pin 1 to GND.
+Connected SW2 pin 1 to GND.
+Connected R8 pin 1 to +3V3.
+Connected SW2 pin 2 to /~{BTN}.
+Added U1 (footprint 'Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm').
+Connected U1 pin 39 to unconnected-(U1A-RGB0-Pad39).
+Changed U1 value from QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm to ICE40UP5K-SG48ITR.
+Updated U1 symbol association from  to /6018b4bd-2ff2-4623-8f4d-18ecc86059b7.
+Updated U1 fields.
+Updated U1 sheetname to '/'.
+Updated U1 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated U1 footprint filters to 'QFN*1EP*7x7mm*P0.5mm*'.
+Connected U1 pin 20 to /10B_25b_G3.
+Connected U1 pin 48 to /IOB_4a.
+Connected U1 pin 23 to /IOT_37a.
+Connected U1 pin 34 to /IOT_44b.
+Updated R7 sheetfile to 'fpga_dev_board.kicad_sch'.
+Connected U2 pin 1 to +3V3.
+Connected U2 pin 2 to unconnected-(U2-NC-Pad2).
+Connected U2 pin 7 to GND.
+Added U3 (footprint 'Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm').
+Changed REF** reference designator to U3.
+Changed U3 value from WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm to TLV73312PDRV.
+Updated R8 fields.
+Added R7 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Changed REF** reference designator to R7.
+Changed R7 value from R_1206_3216Metric to 10k.
+Updated R7 symbol association from  to /00000000-0000-0000-0000-00005a9af5cf.
+Updated R7 fields.
+Updated R7 sheetname to '/'.
+Connected U4 pin 5 to /SPI_MOSI-IO0.
+Updated R7 footprint filters to 'Resistor_* R_*'.
+Connected R7 pin 2 to Net-(U2-EN).
+Connected R7 pin 1 to VIN.
+Added R8 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Changed REF** reference designator to R8.
+Changed R8 value from R_1206_3216Metric to 10k.
+Updated R8 symbol association from  to /00000000-0000-0000-0000-00005a52417f.
+Connected R6 pin 1 to /~{BTN}.
+Updated R8 sheetname to '/'.
+Updated R8 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated R8 footprint filters to 'Resistor_* R_*'.
+Connected R8 pin 2 to Net-(X1-EN).
+Added R9 (footprint 'Resistor_SMD:R_1206_3216Metric').
+Connected U2 pin 6 to VIN.
+Connected U4 pin 3 to /SPI_~{WP}-IO2.
+Connected U4 pin 1 to /SPI_~{CS}.
+Connected U4 pin 8 to +3V3.
+
+
+Updated U2 fields.
+Connected U1 pin 2 to /IOB_6a.
+Connected U1 pin 12 to /10B_22a.
+Connected U1 pin 19 to /SPI_~{HLD}-IO3.
+Connected U1 pin 28 to /IOT_41a.
+Connected U1 pin 47 to /IOB_2a.
+Connected U1 pin 7 to /CDONE.
+Connected U1 pin 10 to /10B_18a.
+Connected U1 pin 41 to unconnected-(U1A-RGB2-Pad41).
+Connected U2 pin 3 to GND.
+Connected U2 pin 4 to Net-(U2-EN).
+Connected U2 pin 5 to unconnected-(U2-NC-Pad5).
+Updated U2 footprint filters to 'WSON*1EP*2x2mm*P0.65mm*'.
+Updated U2 sheetfile to 'fpga_dev_board.kicad_sch'.
+Updated U2 sheetname to '/'.
+Updated U2 symbol association from  to /00000000-0000-0000-0000-00005f4b9734.
+Changed U2 value from WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm to TLV75533PDRV.
+Changed REF** reference designator to U2.
+Added U2 (footprint 'Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm').
+Connected U1 pin 49 to GND.
+Connected U1 pin 29 to Net-(U1D-VCCPLL).
+Connected SW1 pin 1 to GND.
+Warning: No net found for component D1 pad 1 (no pin 1 in symbol).
+Warning: No net found for component D3 pad 2 (no pin 2 in symbol).
+Warning: No net found for component D3 pad 1 (no pin 1 in symbol).
+Warning: No net found for component D1 pad 2 (no pin 2 in symbol).
+Warning: No net found for component D2 pad 2 (no pin 2 in symbol).
+Warning: No net found for component D2 pad 1 (no pin 1 in symbol).
+Error: Cannot add X1 (footprint 'pkl_misc:Oscillator_SMD_SCTF_S2DXX-4Pin_2.5x2.0mm' not found).
+Error: D1 pad C not found in LED_SMD:LED_0603_1608Metric.
+Error: D1 pad A not found in LED_SMD:LED_0603_1608Metric.
+Error: D2 pad C not found in LED_SMD:LED_0603_1608Metric.
+Error: D2 pad A not found in LED_SMD:LED_0603_1608Metric.
+Error: D3 pad A not found in LED_SMD:LED_0603_1608Metric.
+Error: D3 pad C not found in LED_SMD:LED_0603_1608Metric.
+
+
+Info: Total warnings: 6, errors: 7.
