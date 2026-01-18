@@ -1034,6 +1034,328 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Filled_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1046,21 +1368,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -2338,27 +2658,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED_Filled_1"
+		(symbol "Jumper:Jumper_2_Small_Bridged"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LED_Filled"
-				(at 0 -2.54 0)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2383,7 +2703,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, filled shape"
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2392,7 +2712,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_keywords" "Jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2401,7 +2721,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2410,11 +2730,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Filled_1_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -2423,60 +2742,37 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "LED_Filled_1_1_1"
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2492,9 +2788,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2517,7 +2813,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -8.89 8.89 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2525,24 +2821,15 @@
 				)
 			)
 			(property "Value" "W25Q128JVS"
-				(at 7.62 8.89 0)
+				(at 7.62 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2550,8 +2837,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2568,7 +2864,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
+			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2580,7 +2876,7 @@
 			(symbol "W25Q128JVS_0_1"
 				(rectangle
 					(start -7.62 10.16)
-					(end 7.62 -10.16)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2630,7 +2926,7 @@
 				(pin bidirectional line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "DI(IO0)"
+					(name "DI/IO_{0}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2648,7 +2944,7 @@
 				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "DO(IO1)"
+					(name "DO/IO_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2666,7 +2962,7 @@
 				(pin bidirectional line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "IO2"
+					(name "~{WP}/IO_{2}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2684,7 +2980,7 @@
 				(pin bidirectional line
 					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "IO3"
+					(name "~{HOLD}/~{RESET}/IO_{3}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2745,7 +3041,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "X"
+			(property "Reference" "Y"
 				(at -5.08 6.35 0)
 				(effects
 					(font
@@ -3438,208 +3734,6 @@
 					(length 0)
 					(hide yes)
 					(name "+1V2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "icebreaker-bitsy-rescue:+3V3-power"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power_+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3-power_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "icebreaker-bitsy-rescue:GND-power"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power_GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND-power_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND-power_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4767,381 +4861,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "pkl_device_pkl_C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C? C_????_* C_???? SMD*_c Capacitor*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "pkl_C_Small-pkl_device_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "pkl_C_Small-pkl_device_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.905)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "pkl_device_pkl_R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "pkl_R_Small-pkl_device_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "pkl_R_Small-pkl_device_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "icebreaker-bitsy-rescue:pkl_jumper_nc-pkl_misc"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "pkl_misc_pkl_jumper_nc"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "pkl_jumper_nc-pkl_misc_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "pkl_jumper_nc-pkl_misc_1_1"
-				(rectangle
-					(start -1.27 0.762)
-					(end -0.254 -0.762)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 0.762)
-					(end 1.27 -0.762)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5241,8 +4968,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3V3"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5262,8 +4988,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5339,8 +5069,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6313,6 +6042,16 @@
 			(type default)
 		)
 		(uuid "15294235-5b89-46f2-bd10-bdddb38770d3")
+	)
+	(wire
+		(pts
+			(xy 20.32 162.56) (xy 25.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155f99b3-67de-4ba7-adcc-9f2c93ec1790")
 	)
 	(wire
 		(pts
@@ -7486,7 +7225,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 167.64) (xy 25.4 162.56)
+			(xy 20.32 171.45) (xy 20.32 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7846,16 +7585,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 172.72) (xy 25.4 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af9687e1-f17c-44b8-abc9-0f430a504ef1")
-	)
-	(wire
-		(pts
 			(xy 76.2 156.21) (xy 78.74 156.21)
 		)
 		(stroke
@@ -7963,6 +7692,16 @@
 			(type default)
 		)
 		(uuid "c2196546-2177-4576-8118-b6b2f4511799")
+	)
+	(wire
+		(pts
+			(xy 20.32 176.53) (xy 20.32 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d2a65b-4fa4-40ad-bf25-ad04920683eb")
 	)
 	(wire
 		(pts
@@ -8366,6 +8105,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 187.96) (xy 25.4 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea845dd2-da83-470c-bdfc-55159a441f38")
+	)
+	(wire
+		(pts
 			(xy 172.72 54.61) (xy 176.53 54.61)
 		)
 		(stroke
@@ -8453,16 +8202,6 @@
 			(type default)
 		)
 		(uuid "f571e271-d1e9-4d1c-9c8e-530ab5c130e8")
-	)
-	(wire
-		(pts
-			(xy 151.13 156.21) (xy 148.59 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b9eda1-6261-46f4-a0a9-c04277f5a063")
 	)
 	(wire
 		(pts
@@ -9525,7 +9264,7 @@
 		(uuid "fc9ae448-4f75-4a0b-bdf8-6ba8184727ff")
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 68.58 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9568,7 +9307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -9590,7 +9329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 193.04 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9615,24 +9354,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 194.5386 30.3022 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 193.04 27.94 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 193.04 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 193.04 27.94 0)
 			(effects
 				(font
@@ -9675,7 +9414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 50.8 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -9703,24 +9442,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 48.4632 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 50.8 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -9763,7 +9502,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 45.72 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -9791,24 +9530,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 43.3832 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 45.72 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 45.72 54.61 0)
 			(effects
 				(font
@@ -9851,7 +9590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 40.64 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -9879,24 +9618,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 38.3032 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 40.64 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 40.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 40.64 54.61 0)
 			(effects
 				(font
@@ -10025,7 +9764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 109.22 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10068,7 +9807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 109.22 39.37 0)
 			(effects
 				(font
@@ -10176,7 +9915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 123.19 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10219,7 +9958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 123.19 39.37 0)
 			(effects
 				(font
@@ -10241,7 +9980,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 137.16 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10284,7 +10023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 137.16 24.13 0)
 			(effects
 				(font
@@ -10392,7 +10131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 104.14 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10435,7 +10174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 104.14 69.85 0)
 			(effects
 				(font
@@ -10543,7 +10282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 119.38 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10586,7 +10325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 119.38 69.85 0)
 			(effects
 				(font
@@ -10673,7 +10412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 68.58 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10698,24 +10437,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 70.0786 44.2722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 68.58 41.91 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 68.58 41.91 0)
 			(effects
 				(font
@@ -10758,7 +10497,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 63.5 26.67 0)
 		(mirror y)
 		(unit 1)
@@ -10786,24 +10525,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 61.1632 29.0322 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 63.5 26.67 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 63.5 26.67 0)
 			(effects
 				(font
@@ -10934,7 +10673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 53.34 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10977,7 +10716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 53.34 31.75 0)
 			(effects
 				(font
@@ -10999,7 +10738,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 35.56 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -11027,24 +10766,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 33.2232 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 35.56 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 35.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 35.56 54.61 0)
 			(effects
 				(font
@@ -11087,7 +10826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 30.48 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -11115,24 +10854,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 28.1432 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 30.48 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 30.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 30.48 54.61 0)
 			(effects
 				(font
@@ -11175,7 +10914,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 25.4 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -11203,24 +10942,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 23.0632 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 25.4 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 25.4 54.61 0)
 			(effects
 				(font
@@ -11263,7 +11002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 25.4 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11306,7 +11045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 59.69 0)
 			(effects
 				(font
@@ -11393,7 +11132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 96.52 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11418,24 +11157,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 98.0186 29.0322 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 96.52 26.67 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -11478,7 +11217,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 96.52 34.29 0)
 		(mirror y)
 		(unit 1)
@@ -11506,24 +11245,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 94.1832 36.6522 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 96.52 34.29 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 96.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 96.52 34.29 0)
 			(effects
 				(font
@@ -11566,7 +11305,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 219.71 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11609,7 +11348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 219.71 24.13 0)
 			(effects
 				(font
@@ -11631,7 +11370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 175.26 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11656,24 +11395,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 177.6222 32.7914 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 175.26 34.29 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 175.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 175.26 34.29 0)
 			(effects
 				(font
@@ -11716,7 +11455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 175.26 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11741,24 +11480,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 177.6222 22.6314 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 175.26 24.13 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 175.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 175.26 24.13 0)
 			(effects
 				(font
@@ -11801,7 +11540,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 55.88 78.74 0)
 		(mirror y)
 		(unit 1)
@@ -11829,24 +11568,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 53.5432 81.1022 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 55.88 78.74 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 55.88 78.74 0)
 			(effects
 				(font
@@ -11889,7 +11628,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 55.88 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11932,7 +11671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 55.88 81.28 0)
 			(effects
 				(font
@@ -12029,7 +11768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 234.95 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12054,24 +11793,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 233.4514 73.8378 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 234.95 76.2 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 234.95 76.2 0)
 			(effects
 				(font
@@ -12114,7 +11853,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 154.94 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12157,7 +11896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -12179,7 +11918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 175.26 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12204,24 +11943,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 177.6222 42.9514 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 175.26 44.45 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 175.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 175.26 44.45 0)
 			(effects
 				(font
@@ -12385,7 +12124,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_jumper_nc-pkl_misc")
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
 		(at 50.8 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12414,20 +12153,21 @@
 			(at 50.8 71.12 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 50.8 71.12 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -12496,7 +12236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
 			(at 205.74 33.02 0)
 			(effects
 				(font
@@ -12505,7 +12245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"
 			(at 208.28 33.02 0)
 			(effects
 				(font
@@ -12545,74 +12285,8 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
-		(at 38.1 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005eddf435")
-		(property "Reference" "#PWR0116"
-			(at 41.91 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 34.8488 70.739 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f148f673-ad6a-459c-85af-d3be911e1023")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
-		(at 25.4 170.18 0)
+		(lib_id "Device:C_Small")
+		(at 20.32 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12620,7 +12294,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf174a")
 		(property "Reference" "C7"
-			(at 19.5834 170.18 90)
+			(at 14.5034 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12628,7 +12302,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 21.8948 170.18 90)
+			(at 16.8148 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12636,24 +12310,25 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 21.717 170.18 90)
+			(at 20.32 173.99 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 25.4 170.18 0)
+		(property "Datasheet" "~"
+			(at 20.32 173.99 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 25.4 170.18 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 20.32 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12662,7 +12337,7 @@
 			)
 		)
 		(property "Source" "ANY"
-			(at 25.4 170.18 90)
+			(at 20.32 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12671,7 +12346,7 @@
 			)
 		)
 		(property "Key" "cap-cer-0402-100n"
-			(at 25.4 170.18 90)
+			(at 20.32 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12695,7 +12370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 36.83 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12738,7 +12413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 36.83 158.75 0)
 			(effects
 				(font
@@ -12760,7 +12435,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 76.2 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12803,7 +12478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 76.2 110.49 0)
 			(effects
 				(font
@@ -12955,7 +12630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 220.98 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12998,7 +12673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 220.98 91.44 0)
 			(effects
 				(font
@@ -13085,7 +12760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 180.34 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13128,7 +12803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 180.34 20.32 0)
 			(effects
 				(font
@@ -13193,7 +12868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
 			(at 123.19 29.21 0)
 			(effects
 				(font
@@ -13285,7 +12960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 1.2V, WSON6"
 			(at 119.38 59.69 0)
 			(effects
 				(font
@@ -13334,7 +13009,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 93.98 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13377,7 +13052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 90.17 0)
 			(effects
 				(font
@@ -13399,7 +13074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 135.89 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13442,7 +13117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 135.89 69.85 0)
 			(effects
 				(font
@@ -13464,7 +13139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 137.16 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13507,7 +13182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 39.37 0)
 			(effects
 				(font
@@ -13529,7 +13204,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 96.52 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13572,7 +13247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 96.52 39.37 0)
 			(effects
 				(font
@@ -13659,7 +13334,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 101.6 107.95 90)
 		(mirror x)
 		(unit 1)
@@ -13687,24 +13362,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 103.9622 110.2868 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 101.6 107.95 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -13747,7 +13422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 109.22 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13790,7 +13465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 109.22 107.95 0)
 			(effects
 				(font
@@ -13942,7 +13617,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 208.28 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13985,7 +13660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 208.28 21.59 0)
 			(effects
 				(font
@@ -14082,7 +13757,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 214.63 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14109,24 +13784,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 216.9922 20.5232 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 214.63 22.86 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 214.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 214.63 22.86 0)
 			(effects
 				(font
@@ -14169,7 +13844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 170.18 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14194,24 +13869,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 172.5422 53.1114 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 170.18 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 170.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -14254,7 +13929,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 167.64 102.87 270)
 		(mirror x)
 		(unit 1)
@@ -14298,7 +13973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 167.64 102.87 0)
 			(effects
 				(font
@@ -14385,7 +14060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 261.62 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14412,24 +14087,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 259.2578 105.2068 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 261.62 102.87 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 261.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 261.62 102.87 0)
 			(effects
 				(font
@@ -14747,7 +14422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 166.37 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14772,24 +14447,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 168.7322 92.4814 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 166.37 93.98 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 166.37 93.98 0)
 			(effects
 				(font
@@ -14897,7 +14572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 260.35 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14924,24 +14599,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 257.9878 92.5068 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 260.35 90.17 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 260.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 260.35 90.17 0)
 			(effects
 				(font
@@ -14984,7 +14659,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 152.4 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15027,7 +14702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -15076,7 +14751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 35.56 175.26 0)
 			(effects
 				(font
@@ -15085,7 +14760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 			(at 35.56 175.26 0)
 			(effects
 				(font
@@ -15094,7 +14769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 			(at 35.56 175.26 0)
 			(effects
 				(font
@@ -15137,7 +14812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 208.28 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15180,7 +14855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 208.28 40.64 0)
 			(effects
 				(font
@@ -15267,7 +14942,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 193.04 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15310,7 +14985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 193.04 25.4 0)
 			(effects
 				(font
@@ -15674,7 +15349,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 76.2 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15699,24 +15374,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 77.6986 115.3922 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 76.2 113.03 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 76.2 113.03 0)
 			(effects
 				(font
@@ -15969,7 +15644,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 115.57 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16012,7 +15687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 115.57 86.36 0)
 			(effects
 				(font
@@ -16034,7 +15709,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 254 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16077,7 +15752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 254 91.44 0)
 			(effects
 				(font
@@ -16231,7 +15906,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_Filled_1")
 		(lib_id "Device:LED_Filled")
 		(at 163.83 54.61 0)
 		(unit 1)
@@ -16281,6 +15955,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16366,7 +16048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 271.78 102.87 270)
 		(mirror x)
 		(unit 1)
@@ -16410,7 +16092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 271.78 102.87 0)
 			(effects
 				(font
@@ -16498,7 +16180,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 255.27 102.87 0)
 		(mirror y)
 		(unit 1)
@@ -16542,7 +16224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 255.27 102.87 0)
 			(effects
 				(font
@@ -16564,7 +16246,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_Filled_1")
 		(lib_id "Device:LED_Filled")
 		(at 168.91 34.29 0)
 		(unit 1)
@@ -16616,6 +16297,14 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ffaa32ea-3cbc-46c9-a377-c263b9fdf872")
 		)
@@ -16632,7 +16321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 91.44 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16675,7 +16364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 91.44 106.68 0)
 			(effects
 				(font
@@ -16697,7 +16386,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 165.1 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16740,7 +16429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -17438,7 +17127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 146.05 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17465,24 +17154,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 143.6878 105.2068 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 146.05 102.87 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 146.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 146.05 102.87 0)
 			(effects
 				(font
@@ -17591,7 +17280,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 227.33 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17618,24 +17307,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 224.9678 92.5068 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 227.33 90.17 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 227.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 227.33 90.17 0)
 			(effects
 				(font
@@ -17678,7 +17367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 168.91 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17703,24 +17392,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 170.4086 73.4822 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 168.91 71.12 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 168.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 168.91 71.12 0)
 			(effects
 				(font
@@ -17763,7 +17452,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_Filled_1")
 		(lib_id "Device:LED_Filled")
 		(at 168.91 24.13 0)
 		(unit 1)
@@ -17813,6 +17501,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17997,7 +17693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 267.97 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18022,24 +17718,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 266.4714 73.8378 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 267.97 76.2 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 267.97 76.2 0)
 			(effects
 				(font
@@ -18082,7 +17778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 166.37 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18107,24 +17803,24 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 168.7322 84.8614 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 166.37 86.36 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 166.37 86.36 0)
 			(effects
 				(font
@@ -18167,7 +17863,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_Filled_1")
 		(lib_id "Device:LED_Filled")
 		(at 160.02 44.45 0)
 		(unit 1)
@@ -18217,6 +17912,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18302,7 +18005,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 139.7 102.87 0)
 		(mirror y)
 		(unit 1)
@@ -18346,7 +18049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 139.7 102.87 0)
 			(effects
 				(font
@@ -18362,6 +18065,73 @@
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 38.1 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4326dce-c8cc-47d7-b548-e549f175c1ae")
+		(property "Reference" "#PWR019"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 34.29 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 38.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecf8a55d-b829-4e0f-8d98-aab10f79b229")
+		)
+		(instances
+			(project ""
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
