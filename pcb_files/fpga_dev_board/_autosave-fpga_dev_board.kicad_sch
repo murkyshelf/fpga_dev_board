@@ -5470,17 +5470,6 @@
 		)
 		(uuid "fb3c7315-105f-4898-8e93-7e9b85dda87d")
 	)
-	(text "TO DO \n\n - rename the pins\n "
-		(exclude_from_sim no)
-		(at 177.8 174.244 0)
-		(effects
-			(font
-				(size 2.27 2.27)
-			)
-			(justify left)
-		)
-		(uuid "fde0065e-60f5-4a8c-ad02-d7c5bdbb781d")
-	)
 	(junction
 		(at 30.48 59.69)
 		(diameter 0)
