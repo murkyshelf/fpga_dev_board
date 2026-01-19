@@ -3206,30 +3206,31 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV75533PDRV"
+		(symbol "Regulator_Linear:TLV75533PDBV"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 0 8.6868 0)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TLV75533PDRV"
-				(at 0 6.3754 0)
+			(property "Value" "TLV75533PDBV"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 0 8.255 0)
 				(effects
 					(font
@@ -3248,16 +3249,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Key" "vreg-dfn6-1v2-tlv75533"
+			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3275,7 +3267,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.65mm*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3284,7 +3276,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV75533PDRV_0_1"
+			(symbol "TLV75533PDBV_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -5.08)
@@ -3297,7 +3289,7 @@
 					)
 				)
 			)
-			(symbol "TLV75533PDRV_1_1"
+			(symbol "TLV75533PDBV_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -3352,25 +3344,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 5.08 0 180)
 					(length 2.54)
@@ -3382,250 +3355,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TLV75533PDRV_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U2"
-				(at 0 8.6868 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV75533PDRV"
-				(at 0 6.3754 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Key" "vreg-dfn6-1v2-tlv75533"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LDO Regulator Fixed Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV75533PDRV_1_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV75533PDRV_1_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5685,12 +5415,6 @@
 		(uuid "bd17dfb4-d84c-4eee-8527-15da406caefa")
 	)
 	(junction
-		(at 180.34 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c951423c-2f3c-493f-8747-bf6fad303eb8")
-	)
-	(junction
 		(at 53.34 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5775,10 +5499,6 @@
 		(uuid "a8b99d1b-971b-45c2-b687-5ca4161f73b2")
 	)
 	(no_connect
-		(at 260.35 151.13)
-		(uuid "c19e6983-b6fb-47bd-bac7-25b45f0068f5")
-	)
-	(no_connect
 		(at 260.35 156.21)
 		(uuid "d2f864a7-c647-46e1-a2b4-89e0a2c2e123")
 	)
@@ -5812,13 +5532,33 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 44.45) (xy 172.72 44.45)
+			(xy 163.83 38.1) (xy 172.72 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0196b392-0bc0-4946-b8b7-14bacce21495")
+	)
+	(wire
+		(pts
+			(xy 172.72 24.13) (xy 180.34 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f4145a-f838-4fff-917d-008b95c9c181")
+	)
+	(wire
+		(pts
+			(xy 156.21 24.13) (xy 165.1 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0211765f-d03f-4e8f-abad-f676aaf14480")
 	)
 	(wire
 		(pts
@@ -5859,16 +5599,6 @@
 			(type default)
 		)
 		(uuid "03dd3c2c-0f5a-4a48-8d73-475f98657f3f")
-	)
-	(wire
-		(pts
-			(xy 180.34 34.29) (xy 180.34 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0626529a-b77d-4411-98d5-e452ff87c29d")
 	)
 	(wire
 		(pts
@@ -5929,16 +5659,6 @@
 			(type default)
 		)
 		(uuid "0a4e6095-2d6f-409f-885f-9caab5fc465a")
-	)
-	(wire
-		(pts
-			(xy 177.8 24.13) (xy 180.34 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c01da4b-665b-4317-8666-9f9b42901c1d")
 	)
 	(wire
 		(pts
@@ -6079,16 +5799,6 @@
 			(type default)
 		)
 		(uuid "155f99b3-67de-4ba7-adcc-9f2c93ec1790")
-	)
-	(wire
-		(pts
-			(xy 163.83 34.29) (xy 165.1 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17ef7fa0-4af7-432d-86b5-2e3016c714e5")
 	)
 	(wire
 		(pts
@@ -6820,16 +6530,6 @@
 		)
 		(uuid "6160ee99-f8fc-445c-a9f4-a63af04ff128")
 	)
-	(wire
-		(pts
-			(xy 177.8 34.29) (xy 180.34 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6199c6b7-617e-4878-9d9c-340c0471134b")
-	)
 	(polyline
 		(pts
 			(xy 80.01 99.06) (xy 80.01 77.47)
@@ -6992,7 +6692,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 160.02 54.61)
+			(xy 154.94 53.34) (xy 162.56 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7122,7 +6822,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 44.45) (xy 154.94 46.99)
+			(xy 154.94 38.1) (xy 154.94 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7152,7 +6852,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 24.13) (xy 180.34 34.29)
+			(xy 180.34 24.13) (xy 180.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7422,6 +7122,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 151.13) (xy 260.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9715c659-29c6-42af-82a8-aa16ed5c255e")
+	)
+	(wire
+		(pts
 			(xy 25.4 44.45) (xy 25.4 46.99)
 		)
 		(stroke
@@ -7639,16 +7349,6 @@
 			(type default)
 		)
 		(uuid "b48c79c8-e4f7-46a5-923b-b742af9776ea")
-	)
-	(wire
-		(pts
-			(xy 165.1 24.13) (xy 162.56 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6877dea-2dd4-4929-99fb-f177be7adf96")
 	)
 	(wire
 		(pts
@@ -8072,7 +7772,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 44.45) (xy 156.21 44.45)
+			(xy 154.94 38.1) (xy 156.21 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8102,7 +7802,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 44.45) (xy 180.34 44.45)
+			(xy 177.8 38.1) (xy 180.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8132,7 +7832,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 54.61) (xy 176.53 54.61)
+			(xy 175.26 53.34) (xy 179.07 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8420,16 +8120,6 @@
 		)
 		(uuid "2330c0d4-39fc-4b40-9539-bb39b2a689d2")
 	)
-	(label "IOB_13b-~{LEDG}"
-		(at 163.83 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24496d8b-7fb7-4112-aa29-d3d1c830dee9")
-	)
 	(label "~{BTN}"
 		(at 226.06 158.75 0)
 		(effects
@@ -8590,6 +8280,16 @@
 		)
 		(uuid "4e663fc4-6e2d-4abf-95b0-1964b3af6061")
 	)
+	(label "led"
+		(at 156.21 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5105169f-d354-48ff-9c83-c7bf47e10a22")
+	)
 	(label "CDONE"
 		(at 106.68 120.65 0)
 		(effects
@@ -8721,7 +8421,7 @@
 		(uuid "6adaaf09-a6b8-454f-abc3-de82a0df1635")
 	)
 	(label "CDONE"
-		(at 165.1 44.45 0)
+		(at 165.1 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8729,16 +8429,6 @@
 			(justify left bottom)
 		)
 		(uuid "6ec109e3-5314-4e53-a132-66d4db94421f")
-	)
-	(label "IOT_36b-~{LEDR}"
-		(at 162.56 24.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7125d89b-ac04-4fda-b0ce-c46cc76deccd")
 	)
 	(label "IOT_41a"
 		(at 255.27 125.73 180)
@@ -9239,6 +8929,16 @@
 			(justify right bottom)
 		)
 		(uuid "f08d88b9-2849-41b1-b060-8a54b9030453")
+	)
+	(label "led"
+		(at 254 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f195aa26-cc1a-4e46-9c9a-453180458d54")
 	)
 	(label "vin"
 		(at 209.55 116.84 180)
@@ -11387,176 +11087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 175.26 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b96c45e")
-		(property "Reference" "L_R12"
-			(at 175.26 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 175.26 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 175.26 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 175.26 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "ANY"
-			(at 175.26 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "res-0402-2k2"
-			(at 393.7 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5db723f-ef14-4509-a5ec-aefa3fea8501")
-		)
-		(pin "2"
-			(uuid "76b606e1-efd1-4ef8-a929-728a9558c3b9")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "L_R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 175.26 24.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b96d321")
-		(property "Reference" "L_R11"
-			(at 175.26 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 175.26 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 175.26 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 175.26 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "ANY"
-			(at 175.26 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "res-0402-2k2"
-			(at 401.32 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de16dcd6-af2d-435b-86a8-35bacda19a51")
-		)
-		(pin "2"
-			(uuid "8c44895d-d493-4254-8f87-1774bd61f26b")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "L_R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 55.88 78.74 0)
 		(mirror y)
@@ -11871,7 +11401,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 46.99 0)
+		(at 154.94 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11879,7 +11409,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e2266a0")
 		(property "Reference" "#PWR077"
-			(at 154.94 53.34 0)
+			(at 154.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,7 +11418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 50.8 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +11426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 46.99 0)
+			(at 154.94 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +11435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 46.99 0)
+			(at 154.94 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11914,7 +11444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 46.99 0)
+			(at 154.94 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11936,7 +11466,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 175.26 44.45 90)
+		(at 175.26 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11944,7 +11474,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e25ed10")
 		(property "Reference" "L_R13"
-			(at 175.26 41.91 90)
+			(at 175.26 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11952,7 +11482,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 175.26 46.99 90)
+			(at 175.26 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11960,7 +11490,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 175.26 44.45 0)
+			(at 175.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11969,7 +11499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 44.45 0)
+			(at 175.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +11508,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 175.26 44.45 0)
+			(at 175.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11987,7 +11517,7 @@
 			)
 		)
 		(property "Source" "ANY"
-			(at 175.26 44.45 0)
+			(at 175.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,7 +11526,7 @@
 			)
 		)
 		(property "Key" "res-0402-2k2"
-			(at 314.96 334.01 0)
+			(at 314.96 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,7 +11574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 194.31 78.74 0)
 			(effects
 				(font
@@ -12836,98 +12366,6 @@
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TLV75533PDRV")
-		(at 123.19 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f4b9734")
-		(property "Reference" "U2"
-			(at 123.19 20.5232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV75533PDRV"
-			(at 123.19 22.8346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 123.19 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-			(at 123.19 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
-			(at 123.19 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "vreg-dfn6-1v2-tlv75533"
-			(at 123.19 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4f2b3075-2598-456d-adef-ea717ddd62ae")
-		)
-		(pin "3"
-			(uuid "40e560c1-4b1c-4055-a55e-ba3affc0135b")
-		)
-		(pin "5"
-			(uuid "73ba34bc-6aec-4c66-abec-2e57d4d03f1b")
-		)
-		(pin "5"
-			(uuid "bc22422f-cee2-409b-9fce-848b279db4e3")
-		)
-		(pin "2"
-			(uuid "9c623497-168d-443d-af6e-b78bf9ce4c74")
-		)
-		(pin "7"
-			(uuid "60fe5d4c-cf20-4863-9ebc-2544aa1d34a7")
-		)
-		(pin "1"
-			(uuid "56c1377c-e290-427a-b9b7-b80d82c870e9")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13770,7 +13208,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 170.18 54.61 90)
+		(at 172.72 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13778,7 +13216,7 @@
 		(dnp no)
 		(uuid "1a154389-9a91-404b-acad-126781bc542d")
 		(property "Reference" "L_R1"
-			(at 170.18 52.07 90)
+			(at 172.72 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13786,7 +13224,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 170.18 57.15 90)
+			(at 172.72 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13794,7 +13232,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 170.18 54.61 0)
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13803,7 +13241,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 54.61 0)
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13812,7 +13250,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 170.18 54.61 0)
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13821,7 +13259,7 @@
 			)
 		)
 		(property "Source" "ANY"
-			(at 170.18 54.61 0)
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13830,7 +13268,7 @@
 			)
 		)
 		(property "Key" "res-0402-2k2"
-			(at 396.24 382.27 0)
+			(at 398.78 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14066,6 +13504,84 @@
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "@G2_C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV75533PDBV")
+		(at 123.19 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2121212f-16a8-411d-a1dc-a1a78853f384")
+		(property "Reference" "U2"
+			(at 123.19 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75533PDBV"
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 123.19 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+			(at 123.19 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 123.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c5c0a766-b7d8-44b9-bd16-49f9b8a92461")
+		)
+		(pin "2"
+			(uuid "fe411144-c0ed-4665-9862-55dec92cbfdc")
+		)
+		(pin "1"
+			(uuid "1e48911d-cfae-4f6b-a1fd-4c5175b2eabb")
+		)
+		(pin "3"
+			(uuid "f502239e-7490-4e99-bf90-79d6ad124e4a")
+		)
+		(pin "5"
+			(uuid "7e572629-2b27-4c45-ba16-586c2c1cd422")
+		)
+		(instances
+			(project ""
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -14585,7 +14101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 54.61 0)
+		(at 154.94 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14593,7 +14109,7 @@
 		(dnp no)
 		(uuid "4f46e5cb-7908-43b5-9871-6ea33780f44d")
 		(property "Reference" "#PWR04"
-			(at 152.4 60.96 0)
+			(at 154.94 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14602,7 +14118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 58.42 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14610,7 +14126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 54.61 0)
+			(at 154.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14619,7 +14135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 54.61 0)
+			(at 154.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14628,7 +14144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 54.61 0)
+			(at 154.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15634,6 +15150,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV75533PDBV")
+		(at 119.38 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ee0c5e-d6ab-4182-a770-719c9b7e20a8")
+		(property "Reference" "U3"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75533PDBV"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 119.38 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ff9a3507-549d-4739-b487-222ee146cda5")
+		)
+		(pin "2"
+			(uuid "f6c84279-ad04-4db7-8982-5ee06b057f44")
+		)
+		(pin "1"
+			(uuid "582b9833-3743-4c59-9dd7-4a6d21552129")
+		)
+		(pin "3"
+			(uuid "c11c42e5-eefc-477b-9877-cfd0a90b31a3")
+		)
+		(pin "5"
+			(uuid "be16f31e-7564-4689-822b-430c63af02ae")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 91.44 0)
 		(unit 1)
@@ -15832,7 +15426,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Filled")
-		(at 163.83 54.61 0)
+		(at 166.37 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15840,7 +15434,7 @@
 		(dnp no)
 		(uuid "a0b64251-b27d-44dc-b7f7-418d8a263556")
 		(property "Reference" "D5"
-			(at 163.576 52.324 0)
+			(at 166.116 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15848,7 +15442,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 164.338 57.15 0)
+			(at 166.878 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15856,7 +15450,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 163.83 54.61 0)
+			(at 166.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15865,7 +15459,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 54.61 0)
+			(at 166.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15874,7 +15468,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 163.83 54.61 0)
+			(at 166.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15883,7 +15477,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 59.944 0)
+			(at 166.37 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16166,81 +15760,6 @@
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Filled")
-		(at 168.91 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba55a9b8-5e58-4c41-905c-c8a9280bf7ce")
-		(property "Reference" "D2"
-			(at 168.402 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "blue"
-			(at 168.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 168.91 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, filled shape"
-			(at 168.91 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 168.91 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffaa32ea-3cbc-46c9-a377-c263b9fdf872")
-		)
-		(pin "2"
-			(uuid "21152328-7e5b-4f9a-8a88-638dfb9d11e3")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -17789,101 +17308,8 @@
 		)
 	)
 	(symbol
-		(lib_name "TLV75533PDRV_1")
-		(lib_id "Regulator_Linear:TLV75533PDRV")
-		(at 119.38 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1e16752-2f69-4568-af72-0f70f70571b4")
-		(property "Reference" "U3"
-			(at 119.38 51.0032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV75533PDRV"
-			(at 119.38 53.3146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 119.38 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "vreg-dfn6-1v2-tlv75533"
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6af230f3-eafc-4bfd-90f6-67aa1b7d0d4a")
-		)
-		(pin "3"
-			(uuid "af762b43-ce5a-40f4-8e3c-bf2a6c798101")
-		)
-		(pin "5"
-			(uuid "9163aea6-68cf-45ca-8846-39f0799778dd")
-		)
-		(pin "5"
-			(uuid "f8a08e01-32de-4105-ad39-1d744ddd876e")
-		)
-		(pin "2"
-			(uuid "634dbf76-1bc8-4ea9-9a23-e86f45bad2db")
-		)
-		(pin "7"
-			(uuid "b2fe15ed-cb04-427d-a9ac-6253c9f0632b")
-		)
-		(pin "1"
-			(uuid "e4a72b98-ef3a-4f6a-8701-c2528ac0b649")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Filled")
-		(at 160.02 44.45 0)
+		(at 160.02 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17891,7 +17317,7 @@
 		(dnp no)
 		(uuid "e5f7161c-12bb-4691-9da0-c34dd93a3a11")
 		(property "Reference" "D3"
-			(at 159.766 42.164 0)
+			(at 159.766 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17899,7 +17325,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 160.528 46.99 0)
+			(at 160.528 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17907,7 +17333,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 160.02 44.45 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17916,7 +17342,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 44.45 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17925,7 +17351,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 160.02 44.45 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17934,7 +17360,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 44.45 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18454,7 +17880,7 @@
 	)
 	(symbol
 		(lib_id "icebreaker-bitsy-rescue:VIN-pkl_power")
-		(at 176.53 54.61 0)
+		(at 179.07 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18462,7 +17888,7 @@
 		(dnp no)
 		(uuid "fd6592b0-5d8d-4573-84c1-8d219a9a4fbf")
 		(property "Reference" "#PWR018"
-			(at 176.53 58.42 0)
+			(at 179.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18471,7 +17897,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 176.53 50.8 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18479,7 +17905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 54.61 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18488,7 +17914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 54.61 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18497,7 +17923,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 54.61 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
