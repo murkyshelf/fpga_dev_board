@@ -5,7 +5,7 @@
 	(uuid "45595bc5-4b41-480e-827b-4e65011f83da")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,15 +14,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 2.54 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,10 +74,123 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x02_Odd_Even_1_1"
+			(symbol "Conn_01x01_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 3.81 -3.81)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -108,28 +221,6 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -141,6 +232,188 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -167,7 +440,193 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -185,7 +644,25 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -195,6 +672,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -521,7 +1034,150 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Filled"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -529,16 +1185,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 10.16 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x07_Odd_Even"
-				(at 1.27 -10.16 0)
+			(property "Value" "LED_Filled"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -563,7 +1219,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Light emitting diode, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -572,7 +1228,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -581,7 +1245,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -590,176 +1254,73 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x07_Odd_Even_1_1"
-				(rectangle
-					(start -1.27 8.89)
-					(end 3.81 -8.89)
+			(symbol "LED_Filled_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 7.747)
-					(end 2.54 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -7.493)
-					(end 2.54 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "LED_Filled_1_1"
 				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -775,117 +1336,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_2"
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -893,114 +1346,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1023,21 +1368,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -2315,27 +2658,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED_Filled_1"
+		(symbol "Jumper:Jumper_2_Small_Bridged"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LED_Filled"
-				(at 0 -2.54 0)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2360,7 +2703,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, filled shape"
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2369,7 +2712,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_keywords" "Jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2378,7 +2721,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2387,11 +2730,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Filled_1_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -2400,60 +2742,37 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "LED_Filled_1_1_1"
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2469,9 +2788,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2494,7 +2813,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -8.89 8.89 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2502,24 +2821,15 @@
 				)
 			)
 			(property "Value" "W25Q128JVS"
-				(at 7.62 8.89 0)
+				(at 7.62 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2527,8 +2837,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2545,7 +2864,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
+			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2557,7 +2876,7 @@
 			(symbol "W25Q128JVS_0_1"
 				(rectangle
 					(start -7.62 10.16)
-					(end 7.62 -10.16)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2607,7 +2926,7 @@
 				(pin bidirectional line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "DI(IO0)"
+					(name "DI/IO_{0}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2625,7 +2944,7 @@
 				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "DO(IO1)"
+					(name "DO/IO_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2643,7 +2962,7 @@
 				(pin bidirectional line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "IO2"
+					(name "~{WP}/IO_{2}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2661,7 +2980,7 @@
 				(pin bidirectional line
 					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "IO3"
+					(name "~{HOLD}/~{RESET}/IO_{3}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2715,179 +3034,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oscillator:ASE-xxxMHz"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "X"
-				(at -5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ASE-xxxMHz"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
-				(at 17.78 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "3.3V CMOS SMD Crystal Clock Oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Oscillator*SMD*Abracon*ASE*3.2x2.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ASE-xxxMHz_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
-						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ASE-xxxMHz_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "Vdd"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:TLV75512PDRV"
+		(symbol "Regulator_Linear:TLV75533PDBV"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2902,7 +3049,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV75512PDRV"
+			(property "Value" "TLV75533PDBV"
 				(at 0 5.715 0)
 				(effects
 					(font
@@ -2911,7 +3058,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 0 8.255 0)
 				(effects
 					(font
@@ -2930,7 +3077,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 1.2V, WSON6"
+			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2948,7 +3095,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.65mm*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2957,7 +3104,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV75512PDRV_0_1"
+			(symbol "TLV75533PDBV_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -5.08)
@@ -2970,7 +3117,7 @@
 					)
 				)
 			)
-			(symbol "TLV75512PDRV_1_1"
+			(symbol "TLV75533PDBV_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2981,7 +3128,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2999,7 +3146,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3017,26 +3164,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3055,166 +3183,6 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:TLV75533PDRV"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV75533PDRV"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LDO Regulator Fixed Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV75533PDRV_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV75533PDRV_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "4"
 						(effects
 							(font
@@ -3223,81 +3191,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -3308,322 +3201,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "icebreaker-bitsy-rescue:+1V2-power"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power_+1V2"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V2-power_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V2-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+1V2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "icebreaker-bitsy-rescue:+3V3-power"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power_+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3-power_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "icebreaker-bitsy-rescue:GND-power"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power_GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND-power_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND-power_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4744,53 +4322,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device"
+		(symbol "power:+1V2"
+			(power)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "pkl_device_pkl_C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4798,214 +4343,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C? C_????_* C_???? SMD*_c Capacitor*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "pkl_C_Small-pkl_device_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "pkl_C_Small-pkl_device_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.905)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "pkl_device_pkl_R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "pkl_R_Small-pkl_device_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "pkl_R_Small-pkl_device_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "icebreaker-bitsy-rescue:pkl_jumper_nc-pkl_misc"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "pkl_misc_pkl_jumper_nc"
-				(at 0 3.81 0)
+			(property "Value" "+1V2"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5030,7 +4369,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Power symbol creates a global label with name \"+1V2\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5039,46 +4378,57 @@
 					(hide yes)
 				)
 			)
-			(symbol "pkl_jumper_nc-pkl_misc_0_1"
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V2_0_1"
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 1.27 0)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "pkl_jumper_nc-pkl_misc_1_1"
-				(rectangle
-					(start -1.27 0.762)
-					(end -0.254 -0.762)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 0.762)
-					(end 1.27 -0.762)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
+			(symbol "+1V2_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
 					(name "~"
 						(effects
 							(font
@@ -5087,24 +4437,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5117,8 +4449,12 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5218,8 +4554,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3V3"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5239,8 +4574,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5316,8 +4655,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5398,7 +4736,7 @@
 	)
 	(text "bank 1"
 		(exclude_from_sim no)
-		(at 144.018 170.688 0)
+		(at 163.83 191.516 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5572,17 +4910,6 @@
 		)
 		(uuid "a4e8ca85-e309-4db6-beb0-ddbf4e3a19ad")
 	)
-	(text "or less"
-		(exclude_from_sim no)
-		(at 198.12 29.21 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7a67618-2af0-4e9c-b2b4-0d8c45b5f720")
-	)
 	(text "LCD -L"
 		(exclude_from_sim no)
 		(at 150.876 16.51 0)
@@ -5595,7 +4922,7 @@
 	)
 	(text "utils\n"
 		(exclude_from_sim no)
-		(at 195.326 156.972 0)
+		(at 215.646 159.512 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5615,7 +4942,7 @@
 	)
 	(text "SPI - Programming"
 		(exclude_from_sim no)
-		(at 119.38 151.13 0)
+		(at 118.11 147.32 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5634,6 +4961,16 @@
 			(justify left bottom)
 		)
 		(uuid "bdadb6cd-4cf5-4c64-bbdd-ff23b3bb14a8")
+	)
+	(text "NO CLOCK for v0.1"
+		(exclude_from_sim no)
+		(at 205.486 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bdc74a3c-4d48-458f-8e44-e359e7cc5235")
 	)
 	(text "BUTTONS -B\n"
 		(exclude_from_sim no)
@@ -5706,17 +5043,6 @@
 		)
 		(uuid "fb3c7315-105f-4898-8e93-7e9b85dda87d")
 	)
-	(text "TO DO \n\n - rename the pins\n "
-		(exclude_from_sim no)
-		(at 177.8 174.244 0)
-		(effects
-			(font
-				(size 2.27 2.27)
-			)
-			(justify left)
-		)
-		(uuid "fde0065e-60f5-4a8c-ad02-d7c5bdbb781d")
-	)
 	(junction
 		(at 30.48 59.69)
 		(diameter 0)
@@ -5770,12 +5096,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a3eee3e-6f90-4f50-b623-43daa5f4a6a5")
-	)
-	(junction
-		(at 180.34 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fe96c5b-4be4-439f-9965-efaed8022b69")
 	)
 	(junction
 		(at 68.58 46.99)
@@ -5910,16 +5230,10 @@
 		(uuid "a71e4112-4931-4175-a26f-b4ee40016db2")
 	)
 	(junction
-		(at 208.28 22.86)
+		(at 180.34 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd17dfb4-d84c-4eee-8527-15da406caefa")
-	)
-	(junction
-		(at 180.34 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4d78962-9114-45a7-83bf-08e925934129")
+		(uuid "b12ebf8a-3394-40ca-b1d2-320ee2e91c6f")
 	)
 	(junction
 		(at 53.34 31.75)
@@ -5986,6 +5300,10 @@
 		(uuid "16c0b03e-02b0-448f-bbc4-6ab07eb524d8")
 	)
 	(no_connect
+		(at 144.78 134.62)
+		(uuid "1962f6db-a47b-45b2-a7a9-cfb8ed060ae4")
+	)
+	(no_connect
 		(at 196.85 90.17)
 		(uuid "1adf1fdd-6c4a-47c0-92a5-5f9a147d0d09")
 	)
@@ -5994,8 +5312,16 @@
 		(uuid "42901cf7-3145-49d6-ae20-ca31309d62c0")
 	)
 	(no_connect
+		(at 260.35 153.67)
+		(uuid "6d7cd93e-a0d6-4808-ae09-9a1175e72a40")
+	)
+	(no_connect
 		(at 181.61 90.17)
 		(uuid "a8b99d1b-971b-45c2-b687-5ca4161f73b2")
+	)
+	(no_connect
+		(at 260.35 156.21)
+		(uuid "d2f864a7-c647-46e1-a2b4-89e0a2c2e123")
 	)
 	(no_connect
 		(at 189.23 90.17)
@@ -6027,13 +5353,33 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 49.53) (xy 172.72 49.53)
+			(xy 163.83 38.1) (xy 172.72 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0196b392-0bc0-4946-b8b7-14bacce21495")
+	)
+	(wire
+		(pts
+			(xy 172.72 24.13) (xy 180.34 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f4145a-f838-4fff-917d-008b95c9c181")
+	)
+	(wire
+		(pts
+			(xy 156.21 24.13) (xy 165.1 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0211765f-d03f-4e8f-abad-f676aaf14480")
 	)
 	(wire
 		(pts
@@ -6087,7 +5433,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 49.53) (xy 180.34 39.37)
+			(xy 180.34 20.32) (xy 180.34 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6197,16 +5543,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 22.86) (xy 217.17 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7d3cb8-87a5-499c-b57d-0a84b50c1a9a")
-	)
-	(wire
-		(pts
 			(xy 104.14 57.15) (xy 111.76 57.15)
 		)
 		(stroke
@@ -6267,13 +5603,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 39.37) (xy 165.1 39.37)
+			(xy 20.32 162.56) (xy 25.4 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17ef7fa0-4af7-432d-86b5-2e3016c714e5")
+		(uuid "155f99b3-67de-4ba7-adcc-9f2c93ec1790")
 	)
 	(wire
 		(pts
@@ -6334,16 +5670,6 @@
 			(type default)
 		)
 		(uuid "1ed29ec6-e4e9-4814-b4e8-a6f3c2b9816a")
-	)
-	(wire
-		(pts
-			(xy 180.34 39.37) (xy 180.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f923512-ba94-465b-bba4-f4041aad9c70")
 	)
 	(polyline
 		(pts
@@ -6424,16 +5750,6 @@
 			(type dash)
 		)
 		(uuid "26c397f9-9caa-426f-a16c-93c5450f1519")
-	)
-	(wire
-		(pts
-			(xy 193.04 33.02) (xy 200.66 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2967323d-22b6-4ef3-b9f0-8f8812078480")
 	)
 	(wire
 		(pts
@@ -6527,16 +5843,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 29.21) (xy 180.34 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3726f6a7-3ee3-461d-ae32-0417e49b420d")
-	)
-	(wire
-		(pts
 			(xy 257.81 115.57) (xy 260.35 115.57)
 		)
 		(stroke
@@ -6544,16 +5850,6 @@
 			(type default)
 		)
 		(uuid "38d4b34e-1ffd-4744-a747-30d7e0b562ca")
-	)
-	(wire
-		(pts
-			(xy 207.01 144.78) (xy 209.55 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39c18a6f-a54c-4af6-b72a-ec368f380261")
 	)
 	(wire
 		(pts
@@ -6617,7 +5913,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 154.94 134.62)
+			(xy 144.78 134.62) (xy 154.94 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7197,6 +6493,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 53.34) (xy 162.56 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7b8d5b-e544-44c6-89ee-31cb6816ee0a")
+	)
+	(wire
+		(pts
 			(xy 30.48 46.99) (xy 30.48 52.07)
 		)
 		(stroke
@@ -7204,6 +6510,16 @@
 			(type default)
 		)
 		(uuid "6e1ea9cc-260e-4f06-a2f3-64334da80060")
+	)
+	(wire
+		(pts
+			(xy 201.93 147.32) (xy 198.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5cbd56-aaa6-4a4a-9a5a-57bf7b1dda04")
 	)
 	(polyline
 		(pts
@@ -7307,7 +6623,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 49.53) (xy 154.94 52.07)
+			(xy 154.94 38.1) (xy 154.94 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7327,13 +6643,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 22.86) (xy 208.28 22.86)
+			(xy 180.34 24.13) (xy 180.34 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f47d7e8-c746-4d28-a5a9-39be73132a54")
+		(uuid "7f5a88e4-e223-481c-9d5c-9751a10d8132")
 	)
 	(wire
 		(pts
@@ -7354,16 +6670,6 @@
 			(type default)
 		)
 		(uuid "815ed001-1c62-445c-b841-2097eb371979")
-	)
-	(wire
-		(pts
-			(xy 177.8 49.53) (xy 180.34 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83699261-d851-498d-a7fb-514d11c4506e")
 	)
 	(wire
 		(pts
@@ -7427,23 +6733,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 167.64) (xy 25.4 162.56)
+			(xy 20.32 171.45) (xy 20.32 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "87741600-753a-4f9a-9788-f17ce1dda1da")
-	)
-	(wire
-		(pts
-			(xy 215.9 33.02) (xy 218.44 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89229fbc-2919-4330-b29b-7f611803b1c2")
 	)
 	(wire
 		(pts
@@ -7457,16 +6753,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 33.02) (xy 193.04 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc02a55-1a88-4085-bffa-37ac76aa9532")
-	)
-	(wire
-		(pts
 			(xy 209.55 95.25) (xy 213.36 95.25)
 		)
 		(stroke
@@ -7474,6 +6760,16 @@
 			(type default)
 		)
 		(uuid "8d4f6565-8c69-45fc-ad84-63aa9b1f811b")
+	)
+	(wire
+		(pts
+			(xy 201.93 149.86) (xy 198.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc06f69-481a-4a8a-9e41-6fe05c4f70e2")
 	)
 	(wire
 		(pts
@@ -7597,6 +6893,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 151.13) (xy 260.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9715c659-29c6-42af-82a8-aa16ed5c255e")
+	)
+	(wire
+		(pts
 			(xy 25.4 44.45) (xy 25.4 46.99)
 		)
 		(stroke
@@ -7687,16 +6993,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 129.54) (xy 209.55 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f50c4d-1d28-4e2b-8245-e0a5b329f8c8")
-	)
-	(wire
-		(pts
 			(xy 264.16 102.87) (xy 270.51 102.87)
 		)
 		(stroke
@@ -7747,6 +7043,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 152.4) (xy 198.12 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78cabda-fcdc-47c9-9aed-3fd375f74ef6")
+	)
+	(wire
+		(pts
 			(xy 63.5 19.05) (xy 63.5 24.13)
 		)
 		(stroke
@@ -7774,16 +7080,6 @@
 			(type default)
 		)
 		(uuid "af43b662-fff7-4068-8a80-6aadb2a6a3c3")
-	)
-	(wire
-		(pts
-			(xy 25.4 172.72) (xy 25.4 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af9687e1-f17c-44b8-abc9-0f430a504ef1")
 	)
 	(wire
 		(pts
@@ -7824,16 +7120,6 @@
 			(type default)
 		)
 		(uuid "b48c79c8-e4f7-46a5-923b-b742af9776ea")
-	)
-	(wire
-		(pts
-			(xy 165.1 29.21) (xy 162.56 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6877dea-2dd4-4929-99fb-f177be7adf96")
 	)
 	(wire
 		(pts
@@ -7887,13 +7173,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 24.13) (xy 219.71 22.86)
+			(xy 20.32 176.53) (xy 20.32 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2196546-2177-4576-8118-b6b2f4511799")
+		(uuid "c3d2a65b-4fa4-40ad-bf25-ad04920683eb")
 	)
 	(wire
 		(pts
@@ -7904,6 +7190,16 @@
 			(type default)
 		)
 		(uuid "c50b928d-4a9c-4aae-8b2f-c7c1e7728a22")
+	)
+	(wire
+		(pts
+			(xy 201.93 144.78) (xy 198.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5758e59-a104-4fdf-9494-8b902243973a")
 	)
 	(wire
 		(pts
@@ -7944,16 +7240,6 @@
 			(type default)
 		)
 		(uuid "c6bf2d34-4797-45ee-92d5-9f2e1b1eadae")
-	)
-	(wire
-		(pts
-			(xy 135.89 182.88) (xy 137.16 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c76d81f0-f63f-4e25-b0b1-2e5b2858a892")
 	)
 	(polyline
 		(pts
@@ -8097,16 +7383,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 22.86) (xy 208.28 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d58310-69ae-40de-bdc8-41e93cf44015")
-	)
-	(wire
-		(pts
 			(xy 104.14 57.15) (xy 104.14 54.61)
 		)
 		(stroke
@@ -8247,7 +7523,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 49.53) (xy 156.21 49.53)
+			(xy 154.94 38.1) (xy 156.21 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8277,6 +7553,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 38.1) (xy 180.34 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6cfe7c-6e30-46bb-80fa-4fa45c1cef7b")
+	)
+	(wire
+		(pts
 			(xy 45.72 177.8) (xy 54.61 177.8)
 		)
 		(stroke
@@ -8287,6 +7573,26 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 187.96) (xy 25.4 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea845dd2-da83-470c-bdfc-55159a441f38")
+	)
+	(wire
+		(pts
+			(xy 175.26 53.34) (xy 179.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9b3f9c-3cf9-4422-8e73-c2e5f48c9595")
+	)
+	(wire
+		(pts
 			(xy 36.83 156.21) (xy 36.83 158.75)
 		)
 		(stroke
@@ -8294,16 +7600,6 @@
 			(type default)
 		)
 		(uuid "ec0ae24d-bd2d-4a53-9b12-f1e43e2e6f6d")
-	)
-	(wire
-		(pts
-			(xy 177.8 29.21) (xy 180.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee72c524-3cde-4a63-8419-5349ab09eb82")
 	)
 	(wire
 		(pts
@@ -8367,16 +7663,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 39.37) (xy 180.34 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d5a2cf-51a4-4e44-b046-7a967546bfe9")
-	)
-	(wire
-		(pts
 			(xy 167.64 102.87) (xy 165.1 102.87)
 		)
 		(stroke
@@ -8387,16 +7673,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 160.02) (xy 149.86 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b9eda1-6261-46f4-a0a9-c04277f5a063")
-	)
-	(wire
-		(pts
 			(xy 63.5 19.05) (xy 71.12 19.05)
 		)
 		(stroke
@@ -8404,16 +7680,6 @@
 			(type default)
 		)
 		(uuid "f854cd24-6197-4e21-a188-b1714d23852e")
-	)
-	(wire
-		(pts
-			(xy 208.28 21.59) (xy 208.28 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f91edcbf-498f-4dc9-91f1-d4a7b2f4bb93")
 	)
 	(wire
 		(pts
@@ -8505,6 +7771,16 @@
 		)
 		(uuid "031fa733-594c-403e-982c-1f86ecd6e39c")
 	)
+	(label "IOT_51a"
+		(at 194.31 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03fcbc1a-47b5-4a93-bc1e-63f237b852bb")
+	)
 	(label "~{BTN}"
 		(at 69.85 120.65 180)
 		(effects
@@ -8514,16 +7790,6 @@
 			(justify right bottom)
 		)
 		(uuid "0c9e7c96-32a5-4752-bc6d-c6cd2919fb46")
-	)
-	(label "IOT_50b"
-		(at 209.55 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10f54983-525d-4db1-aa02-f4870265b4d0")
 	)
 	(label "IOT_50b"
 		(at 255.27 146.05 180)
@@ -8536,7 +7802,7 @@
 		(uuid "13c18f9a-e790-4037-a26a-66df25618d35")
 	)
 	(label "SPI_~{WP}-IO2"
-		(at 209.55 111.76 180)
+		(at 209.55 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8555,25 +7821,15 @@
 		)
 		(uuid "1670f5ec-a65e-48eb-a5a1-093cc3049bef")
 	)
-	(label "3v3"
-		(at 152.4 160.02 0)
+	(label "IOT_48b"
+		(at 194.31 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1d4f8c7f-b1ec-468c-a229-b4ff8e7ee033")
-	)
-	(label "SPI_~{HLD}-IO3"
-		(at 209.55 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "20aa7213-e1ac-4d6e-8b09-7377bde866fd")
+		(uuid "1edf7f1e-ff19-43e3-91d0-0f2630ab8eb2")
 	)
 	(label "IOT_48b"
 		(at 255.27 140.97 180)
@@ -8586,7 +7842,7 @@
 		(uuid "217c2985-8755-4ea2-bfd5-dfc0a931d70b")
 	)
 	(label "10B_23a"
-		(at 149.86 167.64 0)
+		(at 148.59 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8595,18 +7851,8 @@
 		)
 		(uuid "2330c0d4-39fc-4b40-9539-bb39b2a689d2")
 	)
-	(label "IOB_13b-~{LEDG}"
-		(at 163.83 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24496d8b-7fb7-4112-aa29-d3d1c830dee9")
-	)
 	(label "~{BTN}"
-		(at 201.93 153.67 0)
+		(at 226.06 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8636,12 +7882,12 @@
 		(uuid "31391af0-fdca-4884-b8f3-60a5577be908")
 	)
 	(label "gnd"
-		(at 189.23 153.67 180)
+		(at 201.93 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "31acb744-780a-42ba-9a24-94809d35ad69")
 	)
@@ -8675,16 +7921,6 @@
 		)
 		(uuid "367e15b7-49e5-4bb9-b7f4-265569573af8")
 	)
-	(label "IOT_45b"
-		(at 209.55 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "38b1b2c7-0a27-47bd-a916-f50fb6817297")
-	)
 	(label "SPI_~{CS}"
 		(at 222.25 109.22 0)
 		(effects
@@ -8706,37 +7942,27 @@
 		(uuid "397f023d-d7bf-4a80-b7b1-9c570ad406a5")
 	)
 	(label "gnd"
-		(at 207.01 144.78 180)
+		(at 201.93 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "39c93a94-979e-4ad6-8fe1-c8ab7a232fec")
 	)
 	(label "3v3"
-		(at 207.01 129.54 180)
+		(at 201.93 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3aae3f0e-5978-4184-b4e0-ad5252c2dd59")
 	)
-	(label "IOT_49a"
-		(at 209.55 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ce8458a-283a-42fd-8275-482a43308f54")
-	)
 	(label "IOB_0a"
-		(at 149.86 182.88 0)
+		(at 194.31 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8765,35 +7991,35 @@
 		)
 		(uuid "4366d6ae-43da-4a75-95b0-95722fdb57d9")
 	)
-	(label "IOT_51a"
-		(at 209.55 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "454ca28a-a26a-4654-b98c-acadbd4e4421")
-	)
 	(label "10B_20a"
-		(at 137.16 167.64 180)
+		(at 127 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "49e1fc0b-69d9-43d3-81d3-4f0ca8b256b4")
 	)
 	(label "IOB_5a"
-		(at 137.16 190.5 180)
+		(at 138.43 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e663fc4-6e2d-4abf-95b0-1964b3af6061")
+	)
+	(label "led"
+		(at 156.21 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4e663fc4-6e2d-4abf-95b0-1964b3af6061")
+		(uuid "5105169f-d354-48ff-9c83-c7bf47e10a22")
 	)
 	(label "CDONE"
 		(at 106.68 120.65 0)
@@ -8826,7 +8052,7 @@
 		(uuid "579bab83-6944-4b73-a930-3942d26d109a")
 	)
 	(label "IOB_4a"
-		(at 149.86 190.5 0)
+		(at 138.43 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8834,16 +8060,6 @@
 			(justify left bottom)
 		)
 		(uuid "596d686e-6b1c-4c3d-87c3-29310a68af5e")
-	)
-	(label "CLK"
-		(at 218.44 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a0eaf80-60b8-4d74-8387-06dd371fbe3d")
 	)
 	(label "IOT_37a"
 		(at 222.25 144.78 0)
@@ -8926,7 +8142,7 @@
 		(uuid "6adaaf09-a6b8-454f-abc3-de82a0df1635")
 	)
 	(label "CDONE"
-		(at 165.1 49.53 0)
+		(at 165.1 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8934,16 +8150,6 @@
 			(justify left bottom)
 		)
 		(uuid "6ec109e3-5314-4e53-a132-66d4db94421f")
-	)
-	(label "IOT_36b-~{LEDR}"
-		(at 162.56 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7125d89b-ac04-4fda-b0ce-c46cc76deccd")
 	)
 	(label "IOT_41a"
 		(at 255.27 125.73 180)
@@ -8956,12 +8162,12 @@
 		(uuid "7508fdde-1d80-4f3f-96cb-d37ae68d2254")
 	)
 	(label "3v3"
-		(at 189.23 151.13 180)
+		(at 201.93 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7bbdf117-7563-4d5b-a654-4b15f38b3256")
 	)
@@ -8976,12 +8182,12 @@
 		(uuid "7e484707-cd15-4996-bfd8-e332614b5b2e")
 	)
 	(label "10B_18a"
-		(at 137.16 165.1 180)
+		(at 127 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "844be47b-5138-4a59-9443-2859871a1010")
 	)
@@ -8995,18 +8201,8 @@
 		)
 		(uuid "8e503567-6739-4c77-8daa-f42dcd3c90aa")
 	)
-	(label "IOT_48b"
-		(at 209.55 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9284261e-c771-493b-ad36-58e17371b518")
-	)
 	(label "CDONE"
-		(at 201.93 151.13 0)
+		(at 226.06 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9046,17 +8242,17 @@
 		(uuid "973f9761-0cfc-49f4-b581-a23c19e12721")
 	)
 	(label "10B_16a"
-		(at 137.16 162.56 180)
+		(at 127 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "993739e2-7c33-461b-b427-f7337ad7417c")
 	)
 	(label "IOB_2a"
-		(at 149.86 185.42 0)
+		(at 138.43 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9126,7 +8322,7 @@
 		(uuid "a7b373dd-b099-4118-8077-8a90dd091d12")
 	)
 	(label "10B_25b_G3"
-		(at 149.86 162.56 0)
+		(at 148.59 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9156,12 +8352,12 @@
 		(uuid "abbb881d-e8e3-4109-8097-d4f3ad29412c")
 	)
 	(label "IOB_8a"
-		(at 137.16 185.42 180)
+		(at 138.43 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ae921008-b5e3-4b90-8bf7-7f0c0227d5f1")
 	)
@@ -9195,6 +8391,16 @@
 		)
 		(uuid "b3bdc78c-aabc-4ded-b37c-77881a0406ed")
 	)
+	(label "IOT_45b"
+		(at 194.31 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b44d2929-66ab-4510-809b-7082c4d1ca03")
+	)
 	(label "IOB_4a"
 		(at 152.4 124.46 180)
 		(effects
@@ -9226,7 +8432,7 @@
 		(uuid "bd24281d-cfc2-4116-ab01-457eb303c4b2")
 	)
 	(label "IOB_3a_G6"
-		(at 149.86 187.96 0)
+		(at 138.43 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9296,14 +8502,24 @@
 		(uuid "d0927ac2-7e0e-4e48-9476-660cee911599")
 	)
 	(label "IOB_6a"
-		(at 137.16 187.96 180)
+		(at 138.43 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d750fcbb-eafe-4abb-973d-b9340ac05fba")
+	)
+	(label "IOT_49a"
+		(at 194.31 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7e99845-e7f7-4236-bb95-976ae44b13fc")
 	)
 	(label "IOB_2a"
 		(at 152.4 119.38 180)
@@ -9316,7 +8532,7 @@
 		(uuid "d8e0c7a3-77c9-4413-87f9-282fa34e2347")
 	)
 	(label "10B_24a"
-		(at 149.86 165.1 0)
+		(at 148.59 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9355,6 +8571,16 @@
 		)
 		(uuid "df95216a-2c7d-4b9c-9228-105581460288")
 	)
+	(label "SPI_~{HLD}-IO3"
+		(at 209.55 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0730917-a774-49d5-99ed-1691e598e821")
+	)
 	(label "SPI_SCK"
 		(at 222.25 111.76 0)
 		(effects
@@ -9385,6 +8611,16 @@
 		)
 		(uuid "e4d38125-59ad-426c-80d2-56a6d4e7211a")
 	)
+	(label "IOT_50b"
+		(at 194.31 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e55ac70a-626a-4aa7-9e0a-d1a78bfa267d")
+	)
 	(label "SPI_MOSI-IO0"
 		(at 222.25 116.84 0)
 		(effects
@@ -9395,23 +8631,13 @@
 		)
 		(uuid "e70f0908-bdab-40dc-a7b3-5390ad6c7dac")
 	)
-	(label "3v3"
-		(at 135.89 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eda30ea2-faa0-40ab-a8f8-b342a3e2155e")
-	)
 	(label "10B_22a"
-		(at 137.16 160.02 180)
+		(at 127 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ede73267-cce7-49eb-8f15-1409bd452737")
 	)
@@ -9434,6 +8660,16 @@
 			(justify right bottom)
 		)
 		(uuid "f08d88b9-2849-41b1-b060-8a54b9030453")
+	)
+	(label "led"
+		(at 254 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f195aa26-cc1a-4e46-9c9a-453180458d54")
 	)
 	(label "vin"
 		(at 209.55 116.84 180)
@@ -9476,7 +8712,7 @@
 		(uuid "fc9ae448-4f75-4a0b-bdf8-6ba8184727ff")
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 68.58 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9519,7 +8755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -9541,92 +8777,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
-		(at 193.04 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a52417f")
-		(property "Reference" "C_R8"
-			(at 190.5 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 195.58 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 194.5386 30.3022 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 27.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "ANY"
-			(at 193.04 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "res-0402-10k"
-			(at 129.54 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "527e1335-3161-4330-bfd3-64385d61ad2b")
-		)
-		(pin "2"
-			(uuid "25007ab1-5c43-4996-b667-60be48d44e3a")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C_R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 50.8 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -9653,25 +8804,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 48.4632 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 50.8 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -9714,7 +8865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 45.72 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -9741,25 +8892,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 43.3832 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 45.72 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 45.72 54.61 0)
 			(effects
 				(font
@@ -9802,7 +8953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 40.64 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -9829,25 +8980,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 38.3032 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.64 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 40.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 40.64 54.61 0)
 			(effects
 				(font
@@ -9916,7 +9067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 110.1852 38.1 0)
 			(effects
 				(font
@@ -9976,7 +9127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 109.22 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10019,7 +9170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 109.22 39.37 0)
 			(effects
 				(font
@@ -10067,7 +9218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 138.1252 38.1 0)
 			(effects
 				(font
@@ -10127,7 +9278,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 123.19 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10170,7 +9321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 123.19 39.37 0)
 			(effects
 				(font
@@ -10192,7 +9343,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 137.16 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10235,7 +9386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 137.16 24.13 0)
 			(effects
 				(font
@@ -10283,7 +9434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 105.1052 68.58 0)
 			(effects
 				(font
@@ -10343,7 +9494,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 104.14 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10386,7 +9537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 104.14 69.85 0)
 			(effects
 				(font
@@ -10434,7 +9585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 136.8552 68.58 0)
 			(effects
 				(font
@@ -10494,7 +9645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 119.38 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10537,7 +9688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 119.38 69.85 0)
 			(effects
 				(font
@@ -10559,7 +9710,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+1V2-power")
+		(lib_id "power:+1V2")
 		(at 135.89 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10602,7 +9753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
 			(at 135.89 54.61 0)
 			(effects
 				(font
@@ -10624,7 +9775,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 68.58 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10648,25 +9799,25 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 70.0786 44.2722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 68.58 41.91 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 68.58 41.91 0)
 			(effects
 				(font
@@ -10709,7 +9860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 63.5 26.67 0)
 		(mirror y)
 		(unit 1)
@@ -10736,25 +9887,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 61.1632 29.0322 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 63.5 26.67 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 63.5 26.67 0)
 			(effects
 				(font
@@ -10824,7 +9975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 51.0032 29.0322 0)
 			(effects
 				(font
@@ -10885,7 +10036,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 53.34 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10928,7 +10079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 53.34 31.75 0)
 			(effects
 				(font
@@ -10950,7 +10101,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 35.56 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -10977,25 +10128,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 33.2232 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 35.56 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 35.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 35.56 54.61 0)
 			(effects
 				(font
@@ -11038,7 +10189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 30.48 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -11065,25 +10216,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 28.1432 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 30.48 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 30.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 30.48 54.61 0)
 			(effects
 				(font
@@ -11126,7 +10277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 25.4 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -11153,25 +10304,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 23.0632 56.9722 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 25.4 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 25.4 54.61 0)
 			(effects
 				(font
@@ -11214,7 +10365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 25.4 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11257,7 +10408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 59.69 0)
 			(effects
 				(font
@@ -11279,7 +10430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+1V2-power")
+		(lib_id "power:+1V2")
 		(at 25.4 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11322,7 +10473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
 			(at 25.4 44.45 0)
 			(effects
 				(font
@@ -11344,7 +10495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 96.52 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11368,25 +10519,25 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 98.0186 29.0322 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 96.52 26.67 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -11429,7 +10580,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 96.52 34.29 0)
 		(mirror y)
 		(unit 1)
@@ -11456,25 +10607,25 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 94.1832 36.6522 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 96.52 34.29 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 96.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 96.52 34.29 0)
 			(effects
 				(font
@@ -11517,242 +10668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
-		(at 219.71 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b81576b")
-		(property "Reference" "#PWR0101"
-			(at 219.71 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.837 28.6004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a80acb60-f1e0-4fa3-952b-6209c13366fd")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
-		(at 175.26 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b96c45e")
-		(property "Reference" "L_R12"
-			(at 175.26 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 175.26 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 177.6222 37.8714 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "ANY"
-			(at 175.26 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "res-0402-2k2"
-			(at 393.7 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5db723f-ef14-4509-a5ec-aefa3fea8501")
-		)
-		(pin "2"
-			(uuid "76b606e1-efd1-4ef8-a929-728a9558c3b9")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "L_R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
-		(at 175.26 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b96d321")
-		(property "Reference" "L_R11"
-			(at 175.26 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 175.26 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 177.6222 27.7114 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 29.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "ANY"
-			(at 175.26 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "res-0402-2k2"
-			(at 401.32 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de16dcd6-af2d-435b-86a8-35bacda19a51")
-		)
-		(pin "2"
-			(uuid "8c44895d-d493-4254-8f87-1774bd61f26b")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "L_R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 55.88 78.74 0)
 		(mirror y)
 		(unit 1)
@@ -11779,25 +10695,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 53.5432 81.1022 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 55.88 78.74 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 55.88 78.74 0)
 			(effects
 				(font
@@ -11840,7 +10756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 55.88 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11883,7 +10799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 55.88 81.28 0)
 			(effects
 				(font
@@ -11929,7 +10845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 227.33 81.915 0)
 			(effects
 				(font
@@ -11980,7 +10896,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 234.95 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12004,25 +10920,25 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 233.4514 73.8378 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 234.95 76.2 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 234.95 76.2 0)
 			(effects
 				(font
@@ -12065,8 +10981,8 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
-		(at 154.94 52.07 0)
+		(lib_id "power:GND")
+		(at 154.94 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12074,7 +10990,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e2266a0")
 		(property "Reference" "#PWR077"
-			(at 154.94 58.42 0)
+			(at 154.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,7 +10999,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 55.88 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12091,7 +11007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 52.07 0)
+			(at 154.94 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12100,7 +11016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 52.07 0)
+			(at 154.94 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12108,8 +11024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12130,8 +11046,8 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
-		(at 175.26 49.53 90)
+		(lib_id "Device:R_Small")
+		(at 175.26 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12139,7 +11055,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e25ed10")
 		(property "Reference" "L_R13"
-			(at 175.26 46.99 90)
+			(at 175.26 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12147,33 +11063,33 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 175.26 52.07 90)
+			(at 175.26 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 177.6222 48.0314 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 38.1 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 175.26 49.53 0)
+		(property "Datasheet" "~"
+			(at 175.26 38.1 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 175.26 49.53 0)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12182,7 +11098,7 @@
 			)
 		)
 		(property "Source" "ANY"
-			(at 175.26 49.53 0)
+			(at 175.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,7 +11107,7 @@
 			)
 		)
 		(property "Key" "res-0402-2k2"
-			(at 314.96 339.09 0)
+			(at 314.96 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,7 +11155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 194.31 78.74 0)
 			(effects
 				(font
@@ -12336,7 +11252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_jumper_nc-pkl_misc")
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
 		(at 50.8 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12365,20 +11281,21 @@
 			(at 50.8 71.12 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 50.8 71.12 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -12412,158 +11329,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Oscillator:ASE-xxxMHz")
-		(at 208.28 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ed6bfaa")
-		(property "Reference" "X1"
-			(at 203.2 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12MHz"
-			(at 210.82 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
-			(at 226.06 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "xtal-smd2520-12mhz-osc"
-			(at 208.28 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0af98365-232c-4220-98fa-433e63946195")
-		)
-		(pin "2"
-			(uuid "cedf7443-9a60-45e2-a7c4-b3cefb8b1ab9")
-		)
-		(pin "3"
-			(uuid "f92c6a70-28e9-4fcd-8638-c6c63b50cf9f")
-		)
-		(pin "4"
-			(uuid "4a979cbc-eb67-460b-a1ef-ba0f63800a37")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
-		(at 38.1 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005eddf435")
-		(property "Reference" "#PWR0116"
-			(at 41.91 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 34.8488 70.739 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f148f673-ad6a-459c-85af-d3be911e1023")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
-		(at 25.4 170.18 0)
+		(lib_id "Device:C_Small")
+		(at 20.32 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12571,7 +11338,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf174a")
 		(property "Reference" "C7"
-			(at 19.5834 170.18 90)
+			(at 14.5034 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,32 +11346,33 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 21.8948 170.18 90)
+			(at 16.8148 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 21.717 170.18 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 20.32 173.99 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 25.4 170.18 0)
+		(property "Datasheet" "~"
+			(at 20.32 173.99 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 25.4 170.18 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 20.32 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12613,7 +11381,7 @@
 			)
 		)
 		(property "Source" "ANY"
-			(at 25.4 170.18 90)
+			(at 20.32 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12622,7 +11390,7 @@
 			)
 		)
 		(property "Key" "cap-cer-0402-100n"
-			(at 25.4 170.18 90)
+			(at 20.32 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12646,7 +11414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 36.83 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12689,7 +11457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 36.83 158.75 0)
 			(effects
 				(font
@@ -12711,7 +11479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 76.2 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12754,7 +11522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 76.2 110.49 0)
 			(effects
 				(font
@@ -12906,7 +11674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 220.98 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12949,7 +11717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 220.98 91.44 0)
 			(effects
 				(font
@@ -13036,8 +11804,8 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
-		(at 180.34 26.67 0)
+		(lib_id "power:+3V3")
+		(at 180.34 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13045,7 +11813,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f49ba7c")
 		(property "Reference" "#PWR0110"
-			(at 180.34 30.48 0)
+			(at 180.34 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13054,7 +11822,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 180.34 22.86 0)
+			(at 180.34 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13062,7 +11830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 26.67 0)
+			(at 180.34 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13071,7 +11839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 26.67 0)
+			(at 180.34 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,8 +11847,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 180.34 26.67 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 180.34 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13101,191 +11869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV75533PDRV")
-		(at 123.19 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f4b9734")
-		(property "Reference" "U2"
-			(at 123.19 20.5232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV75533PDRV"
-			(at 123.19 22.8346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 123.19 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-			(at 123.19 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "vreg-dfn6-1v2-tlv75533"
-			(at 123.19 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4f2b3075-2598-456d-adef-ea717ddd62ae")
-		)
-		(pin "3"
-			(uuid "40e560c1-4b1c-4055-a55e-ba3affc0135b")
-		)
-		(pin "4"
-			(uuid "73ba34bc-6aec-4c66-abec-2e57d4d03f1b")
-		)
-		(pin "5"
-			(uuid "bc22422f-cee2-409b-9fce-848b279db4e3")
-		)
-		(pin "6"
-			(uuid "9c623497-168d-443d-af6e-b78bf9ce4c74")
-		)
-		(pin "7"
-			(uuid "60fe5d4c-cf20-4863-9ebc-2544aa1d34a7")
-		)
-		(pin "1"
-			(uuid "56c1377c-e290-427a-b9b7-b80d82c870e9")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TLV75512PDRV")
-		(at 119.38 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f4baffa")
-		(property "Reference" "U3"
-			(at 119.38 51.0032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV73312PDRV"
-			(at 119.38 53.3146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 119.38 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" "vreg-dfn6-1v2-tlv73312"
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "d91ad9d4-e478-4eb8-ac82-51e540133f48")
-		)
-		(pin "3"
-			(uuid "c2a9c302-8d4f-4baa-a749-348fcdaec5cb")
-		)
-		(pin "4"
-			(uuid "ec8ad5a3-3693-4f03-97f8-d19f306b617f")
-		)
-		(pin "5"
-			(uuid "9d3840d9-837d-4a3c-872c-f04f9e5a552c")
-		)
-		(pin "6"
-			(uuid "4ffe5ad8-8b90-45f4-86fb-1789e704cb9a")
-		)
-		(pin "2"
-			(uuid "440a5ec0-4e67-44a3-8dd3-eff73172b0f0")
-		)
-		(pin "1"
-			(uuid "dc5da0c9-418d-424b-8bc2-803269f25a8e")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 93.98 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13328,7 +11912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 90.17 0)
 			(effects
 				(font
@@ -13350,7 +11934,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 135.89 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13393,7 +11977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 135.89 69.85 0)
 			(effects
 				(font
@@ -13415,7 +11999,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 137.16 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13458,7 +12042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 39.37 0)
 			(effects
 				(font
@@ -13480,7 +12064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 96.52 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13523,7 +12107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 96.52 39.37 0)
 			(effects
 				(font
@@ -13610,7 +12194,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 101.6 107.95 90)
 		(mirror x)
 		(unit 1)
@@ -13637,25 +12221,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 103.9622 110.2868 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 101.6 107.95 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -13698,7 +12282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 109.22 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13741,7 +12325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 109.22 107.95 0)
 			(effects
 				(font
@@ -13763,16 +12347,24 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
-		(at 208.28 21.59 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 143.51 161.29 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "0ff59596-63a8-41ee-bcc8-0fe0c288c89f")
-		(property "Reference" "#PWR09"
-			(at 208.28 25.4 0)
+		(uuid "03a22587-5f85-4982-bce7-9833e10e2774")
+		(property "Reference" "p7"
+			(at 140.716 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 143.51 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13780,16 +12372,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 208.28 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 21.59 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 143.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13797,8 +12381,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 208.28 21.59 0)
+		(property "Datasheet" "~"
+			(at 143.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,8 +12390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 208.28 21.59 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13816,12 +12400,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa44d5ab-f43d-4c40-b352-9dcc0256ca02")
+			(uuid "9ef8773e-cde8-481d-b8a9-4e594f2d5e30")
 		)
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "#PWR09")
+					(reference "p7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 121.92 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "03aef720-0370-434d-bdfb-a6d52fc18a49")
+		(property "Reference" "p4"
+			(at 119.126 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 121.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 121.92 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "472db390-6b22-49b5-996d-1badada45352")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p4")
 					(unit 1)
 				)
 			)
@@ -13852,7 +12501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 260.35 81.915 0)
 			(effects
 				(font
@@ -13903,52 +12552,50 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
-		(at 214.63 22.86 90)
+		(lib_id "Device:R_Small")
+		(at 172.72 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "171b1e6f-1928-4931-b3be-1899d1e38c29")
-		(property "Reference" "C_C10"
-			(at 217.3732 18.9738 90)
+		(uuid "1a154389-9a91-404b-acad-126781bc542d")
+		(property "Reference" "L_R1"
+			(at 172.72 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 217.3732 16.6116 90)
+		(property "Value" "2k2"
+			(at 172.72 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 216.9922 20.5232 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 172.72 53.34 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 214.63 22.86 0)
+		(property "Datasheet" "~"
+			(at 172.72 53.34 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 214.63 22.86 0)
+		(property "Description" "Resistor, small symbol"
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13957,7 +12604,7 @@
 			)
 		)
 		(property "Source" "ANY"
-			(at 214.63 22.86 0)
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13965,8 +12612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "cap-cer-0402-100n"
-			(at 388.62 53.34 0)
+		(property "Key" "res-0402-2k2"
+			(at 398.78 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13975,22 +12622,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "4aad3dca-c167-495b-a04b-67d5c5905674")
+			(uuid "f84c05b0-c06e-45ec-b373-099f32b0c75b")
 		)
 		(pin "2"
-			(uuid "58c44ebe-582a-4ffc-9ab5-a3ace365ab02")
+			(uuid "15fb9496-e42c-4b18-bb9e-b5180497e0d5")
 		)
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "C_C10")
+					(reference "L_R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 167.64 102.87 270)
 		(mirror x)
 		(unit 1)
@@ -14034,7 +12681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 167.64 102.87 0)
 			(effects
 				(font
@@ -14056,7 +12703,72 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 217.17 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b60ea87-b93b-4926-9fd7-0fd4c70ec9ff")
+		(property "Reference" "p28"
+			(at 214.376 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a467f1f-84d9-48d5-8591-d02aa37276c0")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 261.62 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14082,25 +12794,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 259.2578 105.2068 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 261.62 102.87 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 261.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 261.62 102.87 0)
 			(effects
 				(font
@@ -14137,6 +12849,149 @@
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "@G2_C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV75533PDBV")
+		(at 123.19 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2121212f-16a8-411d-a1dc-a1a78853f384")
+		(property "Reference" "U2"
+			(at 123.19 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75533PDBV"
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 123.19 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+			(at 123.19 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 123.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c5c0a766-b7d8-44b9-bd16-49f9b8a92461")
+		)
+		(pin "2"
+			(uuid "fe411144-c0ed-4665-9862-55dec92cbfdc")
+		)
+		(pin "1"
+			(uuid "1e48911d-cfae-4f6b-a1fd-4c5175b2eabb")
+		)
+		(pin "3"
+			(uuid "f502239e-7490-4e99-bf90-79d6ad124e4a")
+		)
+		(pin "5"
+			(uuid "7e572629-2b27-4c45-ba16-586c2c1cd422")
+		)
+		(instances
+			(project ""
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 121.92 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2361ff4f-7853-441d-ab4b-2ce6cc77e32e")
+		(property "Reference" "p1"
+			(at 119.126 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 121.92 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18a7542b-5cd4-4ff2-b115-99b78c460ba8")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p1")
 					(unit 1)
 				)
 			)
@@ -14353,7 +13208,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 166.37 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14377,25 +13232,25 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 168.7322 92.4814 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 166.37 93.98 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 166.37 93.98 0)
 			(effects
 				(font
@@ -14503,7 +13358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 260.35 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14529,25 +13384,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 257.9878 92.5068 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 260.35 90.17 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 260.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 260.35 90.17 0)
 			(effects
 				(font
@@ -14590,6 +13445,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f46e5cb-7908-43b5-9871-6ea33780f44d")
+		(property "Reference" "#PWR04"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2a39731-f8ba-4d17-868c-75d72b185fbf")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
 		(at 35.56 175.26 0)
 		(mirror y)
@@ -14617,7 +13537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 35.56 175.26 0)
 			(effects
 				(font
@@ -14626,7 +13546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 			(at 35.56 175.26 0)
 			(effects
 				(font
@@ -14635,7 +13555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 			(at 35.56 175.26 0)
 			(effects
 				(font
@@ -14678,16 +13598,24 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
-		(at 208.28 40.64 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 217.17 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "51a7eaf3-2ae6-4b40-9ff4-5daf0ded106d")
-		(property "Reference" "#PWR010"
-			(at 208.28 46.99 0)
+		(uuid "57b48368-b190-464e-97ed-8eef97dc62eb")
+		(property "Reference" "p24"
+			(at 214.376 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14695,16 +13623,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 208.407 45.1104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 40.64 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 217.17 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14712,8 +13632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 208.28 40.64 0)
+		(property "Datasheet" "~"
+			(at 217.17 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14721,8 +13641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 208.28 40.64 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14731,77 +13651,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7968d1a-2f33-49ae-8187-2370c155ee55")
+			(uuid "068a1728-d3f5-4417-b5a9-ed76960528bc")
 		)
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
-		(at 193.04 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58995291-ed64-4723-843c-1b2be775ad58")
-		(property "Reference" "#PWR08"
-			(at 193.04 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 193.04 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85488345-2452-4764-a618-1af89a76e1c2")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "#PWR08")
+					(reference "p24")
 					(unit 1)
 				)
 			)
@@ -15017,7 +13872,140 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 220.98 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "614e5b41-c828-4389-9239-4286ee347678")
+		(property "Reference" "J6"
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 220.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 220.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22ede986-d18a-4336-bd17-fceb7bc3eb8c")
+		)
+		(pin "2"
+			(uuid "23c19289-c155-4c95-a5a9-b8d5e63a1dbb")
+		)
+		(instances
+			(project ""
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 217.17 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "663afea3-fa75-470e-b042-9519c14e30a1")
+		(property "Reference" "p30"
+			(at 214.376 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f88993e-ea48-452d-9479-932fc8512e4d")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 76.2 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15041,25 +14029,25 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 77.6986 115.3922 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 76.2 113.03 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 76.2 113.03 0)
 			(effects
 				(font
@@ -15102,33 +14090,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 142.24 185.42 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 143.51 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c68b781-ceb9-4d14-bfca-9272e6026c09")
-		(property "Reference" "J4"
-			(at 143.51 176.53 0)
+		(uuid "7c3b2564-d0cb-43ec-be2d-dba07c138bea")
+		(property "Reference" "p8"
+			(at 140.716 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "bank2"
-			(at 143.51 179.07 0)
+		(property "Value" "Conn_01x01"
+			(at 143.51 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 142.24 185.42 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 143.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15137,7 +14125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 185.42 0)
+			(at 143.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15145,50 +14133,174 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 185.42 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "7"
-			(uuid "e1b9ea23-9926-4da4-be1f-e5c730fe74b4")
-		)
-		(pin "5"
-			(uuid "18c32caf-3945-447c-a613-4028e620a82e")
-		)
-		(pin "6"
-			(uuid "800d53c3-9c86-4bd4-a091-2c81f9ef67a9")
-		)
-		(pin "2"
-			(uuid "efa3d556-2639-4dd7-b69b-ef55236d4811")
-		)
-		(pin "8"
-			(uuid "c08f023d-872e-4277-a105-c1e04d263b23")
-		)
-		(pin "4"
-			(uuid "46902c1a-e5ca-4c97-97d6-12adf1b584de")
-		)
-		(pin "3"
-			(uuid "06f3c761-f1af-4f3d-a747-a35219a5ef2b")
 		)
 		(pin "1"
-			(uuid "fc85bc3c-6af1-4f50-af75-8d331eb9491a")
+			(uuid "70203c4b-a8a5-430a-85ec-21a3c9555068")
 		)
 		(instances
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "J4")
+					(reference "p8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 121.92 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c737bf2-f508-400e-b951-027552e25400")
+		(property "Reference" "p3"
+			(at 119.126 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 121.92 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a644a5dc-a20b-43e5-8afd-6735c191e56b")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 133.35 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7df242f4-bf57-48f4-b888-7cc7600f4536")
+		(property "Reference" "J2"
+			(at 133.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 133.35 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2145f88e-28fb-4c8e-9a8a-bd927cc99f15")
+		)
+		(pin "3"
+			(uuid "38de2dc7-5699-42e7-b15e-a3762ccc7e70")
+		)
+		(pin "5"
+			(uuid "ef9f9a48-aa93-4368-b414-ebbe16c70ce2")
+		)
+		(pin "1"
+			(uuid "e4fb1ea5-c8f8-4d7a-b706-df3562ba6c9f")
+		)
+		(pin "2"
+			(uuid "317b0895-0ec7-4b72-b90d-0f572016fbcb")
+		)
+		(pin "6"
+			(uuid "24643083-1d07-4945-9833-cd928b9ff751")
+		)
+		(instances
+			(project ""
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 115.57 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15231,7 +14343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 115.57 86.36 0)
 			(effects
 				(font
@@ -15253,7 +14365,85 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "Regulator_Linear:TLV75533PDBV")
+		(at 119.38 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ee0c5e-d6ab-4182-a770-719c9b7e20a8")
+		(property "Reference" "U3"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75533PDBV"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 119.38 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ff9a3507-549d-4739-b487-222ee146cda5")
+		)
+		(pin "2"
+			(uuid "f6c84279-ad04-4db7-8982-5ee06b057f44")
+		)
+		(pin "1"
+			(uuid "582b9833-3743-4c59-9dd7-4a6d21552129")
+		)
+		(pin "3"
+			(uuid "c11c42e5-eefc-477b-9877-cfd0a90b31a3")
+		)
+		(pin "5"
+			(uuid "be16f31e-7564-4689-822b-430c63af02ae")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 254 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15296,7 +14486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 254 91.44 0)
 			(effects
 				(font
@@ -15312,6 +14502,71 @@
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 121.92 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9157292a-18ab-4ef2-9ea2-ae4e41cae685")
+		(property "Reference" "p2"
+			(at 119.126 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 121.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6072e29a-7df5-4699-8f7a-89f1b6e3493a")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p2")
 					(unit 1)
 				)
 			)
@@ -15342,7 +14597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 44.45 153.67 0)
 			(effects
 				(font
@@ -15385,33 +14640,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 194.31 151.13 0)
+		(lib_id "Device:LED_Filled")
+		(at 166.37 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a74afb97-e2d8-43b1-9a12-8e73555e33e4")
-		(property "Reference" "J6"
-			(at 195.58 144.78 0)
+		(uuid "a0b64251-b27d-44dc-b7f7-418d8a263556")
+		(property "Reference" "D5"
+			(at 166.116 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "utils"
-			(at 195.58 147.32 0)
+		(property "Value" "red"
+			(at 166.878 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
-			(at 194.31 151.13 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 166.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15420,7 +14674,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 151.13 0)
+			(at 166.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15428,8 +14682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 194.31 151.13 0)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 166.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15437,22 +14691,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "e9f3c9ce-91e7-4936-bd9b-ead96e1e83e1")
-		)
-		(pin "4"
-			(uuid "cd8221cb-3ccb-45b2-b997-448a82c0ad38")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "1"
-			(uuid "9c7df8e1-8ec4-4903-bac2-c67ade87ca43")
+			(uuid "d9600c5c-7552-4a7c-92c2-2573310fe471")
 		)
-		(pin "3"
-			(uuid "f8d23458-dcb2-44f0-820c-e0c6834c6c8d")
+		(pin "2"
+			(uuid "ab79e396-e4cd-456f-a69c-466cd4113101")
 		)
 		(instances
-			(project ""
+			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "J6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -15483,7 +14740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 44.45 158.75 0)
 			(effects
 				(font
@@ -15526,111 +14783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
-		(at 214.63 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac454e0b-b1a8-4416-ac9f-2143b8ee698f")
-		(property "Reference" "J5"
-			(at 215.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "bank0"
-			(at 215.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
-			(at 214.63 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 214.63 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8f0ba72b-b6f3-4b67-95ce-4a2f94fbe129")
-		)
-		(pin "3"
-			(uuid "397d8b22-933e-4093-a909-ff22fcd78c51")
-		)
-		(pin "1"
-			(uuid "824f8c02-60f6-4a44-a6dc-c62f690fbe62")
-		)
-		(pin "6"
-			(uuid "8159d869-86da-423f-94d0-8ba2a998928c")
-		)
-		(pin "5"
-			(uuid "f318be32-dc0b-4f27-bd04-0912b8017216")
-		)
-		(pin "14"
-			(uuid "806c51a8-5158-47c7-863d-f6b4faaa2e4c")
-		)
-		(pin "10"
-			(uuid "fb61c868-494c-4bfc-8f4d-2c09bfb38af6")
-		)
-		(pin "12"
-			(uuid "67ad8cc1-e245-4d94-b796-e10b17e08184")
-		)
-		(pin "11"
-			(uuid "8bb6e276-04ea-4d51-8d16-3e66531a37d7")
-		)
-		(pin "13"
-			(uuid "14b0c80d-286b-4c52-8c8a-c30bc2160baa")
-		)
-		(pin "8"
-			(uuid "24c06023-606d-4956-9a4d-328934d85aa7")
-		)
-		(pin "7"
-			(uuid "d84531bd-a1f2-4d92-aade-f49da7ced9fc")
-		)
-		(pin "9"
-			(uuid "4b292587-144a-46d8-a17a-5df46e7a4faf")
-		)
-		(pin "2"
-			(uuid "7443c8b4-c58c-46fb-a73c-98b4983c04fa")
-		)
-		(instances
-			(project ""
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 271.78 102.87 270)
 		(mirror x)
 		(unit 1)
@@ -15674,7 +14827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 271.78 102.87 0)
 			(effects
 				(font
@@ -15762,93 +14915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 142.24 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8299f20-0056-450d-ba0b-2c559542d019")
-		(property "Reference" "J2"
-			(at 143.51 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "bank1"
-			(at 143.51 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 142.24 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "bf4446d0-4fcf-4a6b-a266-9ac2ea909246")
-		)
-		(pin "5"
-			(uuid "b23b528b-5695-40eb-8463-a1fb308cd728")
-		)
-		(pin "6"
-			(uuid "21084a77-3d82-4ece-8bbf-8942e50438e7")
-		)
-		(pin "2"
-			(uuid "069c9833-aa78-4e09-9342-5ac11955599f")
-		)
-		(pin "8"
-			(uuid "460b103a-ce85-4401-87fc-b9ff7e2ca60f")
-		)
-		(pin "4"
-			(uuid "9d84fcfc-19ed-4c5f-bc6a-ad260b822d75")
-		)
-		(pin "3"
-			(uuid "137c4a90-a642-4a84-bf1a-15b1dc74a37b")
-		)
-		(pin "1"
-			(uuid "cde679d1-2482-4e53-b8cd-c27f6e538f3b")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 255.27 102.87 0)
 		(mirror y)
 		(unit 1)
@@ -15892,7 +14959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 255.27 102.87 0)
 			(effects
 				(font
@@ -15914,75 +14981,7 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_Filled_1")
-		(lib_id "Device:LED_Filled")
-		(at 168.91 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba55a9b8-5e58-4c41-905c-c8a9280bf7ce")
-		(property "Reference" "D2"
-			(at 168.402 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "blue"
-			(at 168.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 168.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, filled shape"
-			(at 168.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffaa32ea-3cbc-46c9-a377-c263b9fdf872")
-		)
-		(pin "2"
-			(uuid "21152328-7e5b-4f9a-8a88-638dfb9d11e3")
-		)
-		(instances
-			(project "fpga_dev_board"
-				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "icebreaker-bitsy-rescue:+3V3-power")
+		(lib_id "power:+3V3")
 		(at 91.44 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16025,7 +15024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 91.44 106.68 0)
 			(effects
 				(font
@@ -16047,7 +15046,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 165.1 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16090,7 +15089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -16172,6 +15171,71 @@
 			(project ""
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 217.17 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c36e73a7-228f-4a63-a852-7adb0bd60b8b")
+		(property "Reference" "p25"
+			(at 214.376 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 217.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af1a2ff9-64c4-4977-b56a-97f1f8e2301d")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p25")
 					(unit 1)
 				)
 			)
@@ -16388,6 +15452,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 193.04 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c472e61c-c447-4516-a434-35d10aa75483")
+		(property "Reference" "J5"
+			(at 184.912 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 184.912 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 193.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 193.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8939081d-6b62-46a7-82f5-923ebe51405b")
+		)
+		(pin "4"
+			(uuid "c97c0cf1-4330-4f92-926f-76124189770a")
+		)
+		(pin "2"
+			(uuid "2896ec2a-b4ce-466f-b19f-61636f7954c2")
+		)
+		(pin "1"
+			(uuid "dadd8afa-59e0-44ee-b357-ac500cfe5472")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 217.17 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4fa665c-5909-4263-a091-9362edf138ae")
+		(property "Reference" "p26"
+			(at 214.376 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac80016c-fd42-4496-a47a-b81c0b89d714")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 44.45 151.13 90)
 		(unit 1)
@@ -16412,7 +15614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 44.45 151.13 0)
 			(effects
 				(font
@@ -16455,7 +15657,137 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 217.17 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c98b6ae9-43a9-4fe3-9116-5d142dcade2e")
+		(property "Reference" "p27"
+			(at 214.376 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "632d07c4-9103-4ad7-9994-6a561ae27ed5")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 143.51 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "caba6fe0-c3b6-4c42-bfcf-1d706bcb3e57")
+		(property "Reference" "p6"
+			(at 140.716 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ba54854-65b5-41ab-880a-c8ff8c185ebf")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 146.05 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16481,25 +15813,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 143.6878 105.2068 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 146.05 102.87 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 146.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 146.05 102.87 0)
 			(effects
 				(font
@@ -16608,7 +15940,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_C_Small-pkl_device")
+		(lib_id "Device:C_Small")
 		(at 227.33 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16634,25 +15966,25 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 224.9678 92.5068 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 227.33 90.17 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 227.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 227.33 90.17 0)
 			(effects
 				(font
@@ -16695,7 +16027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 168.91 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16719,25 +16051,25 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 170.4086 73.4822 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 168.91 71.12 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 168.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 168.91 71.12 0)
 			(effects
 				(font
@@ -16780,9 +16112,8 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_Filled_1")
 		(lib_id "Device:LED_Filled")
-		(at 168.91 29.21 0)
+		(at 168.91 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16790,7 +16121,7 @@
 		(dnp no)
 		(uuid "d5d27056-5d39-4d90-9957-c5dfadab233d")
 		(property "Reference" "D1"
-			(at 167.386 26.924 0)
+			(at 167.386 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16798,7 +16129,7 @@
 			)
 		)
 		(property "Value" "blue"
-			(at 168.402 31.75 0)
+			(at 168.402 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16806,7 +16137,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 168.91 29.21 0)
+			(at 168.91 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16815,7 +16146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 29.21 0)
+			(at 168.91 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16824,12 +16155,20 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 168.91 29.21 0)
+			(at 168.91 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16842,6 +16181,86 @@
 			(project ""
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 189.23 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7660e18-a016-4682-8acd-87a255466e2b")
+		(property "Reference" "J4"
+			(at 189.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 189.23 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6c934cd4-7953-4e1f-8636-685adfa76104")
+		)
+		(pin "4"
+			(uuid "0b2e736a-2d22-47c5-9f95-2b73355beeb9")
+		)
+		(pin "3"
+			(uuid "a7d3bde7-c181-4c2c-9bdd-a07a76b20ddf")
+		)
+		(pin "1"
+			(uuid "fd87bc2a-4abc-438a-9cf3-804021eccc82")
+		)
+		(pin "2"
+			(uuid "1c8aaaab-4e46-4d52-84ab-affe32946003")
+		)
+		(pin "6"
+			(uuid "ddee6a33-2216-4983-be35-0db7ca9b6c46")
+		)
+		(instances
+			(project ""
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -16934,7 +16353,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 267.97 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16958,25 +16377,25 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 266.4714 73.8378 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 267.97 76.2 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 267.97 76.2 0)
 			(effects
 				(font
@@ -17019,7 +16438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:pkl_R_Small-pkl_device")
+		(lib_id "Device:R_Small")
 		(at 166.37 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17043,25 +16462,25 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 168.7322 84.8614 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 166.37 86.36 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
 			(at 166.37 86.36 0)
 			(effects
 				(font
@@ -17104,9 +16523,8 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_Filled_1")
 		(lib_id "Device:LED_Filled")
-		(at 160.02 49.53 0)
+		(at 160.02 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17114,7 +16532,7 @@
 		(dnp no)
 		(uuid "e5f7161c-12bb-4691-9da0-c34dd93a3a11")
 		(property "Reference" "D3"
-			(at 159.766 47.244 0)
+			(at 159.766 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17122,7 +16540,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 160.528 52.07 0)
+			(at 160.528 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17130,7 +16548,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 160.02 49.53 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17139,7 +16557,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 49.53 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17148,12 +16566,20 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 160.02 49.53 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17196,7 +16622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 44.45 156.21 0)
 			(effects
 				(font
@@ -17239,7 +16665,7 @@
 		)
 	)
 	(symbol
-		(lib_id "icebreaker-bitsy-rescue:GND-power")
+		(lib_id "power:GND")
 		(at 139.7 102.87 0)
 		(mirror y)
 		(unit 1)
@@ -17283,7 +16709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 139.7 102.87 0)
 			(effects
 				(font
@@ -17299,6 +16725,73 @@
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 38.1 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4326dce-c8cc-47d7-b548-e549f175c1ae")
+		(property "Reference" "#PWR019"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 34.29 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 38.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecf8a55d-b829-4e0f-8d98-aab10f79b229")
+		)
+		(instances
+			(project ""
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -17596,6 +17089,136 @@
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "U1")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "icebreaker-bitsy-rescue:VIN-pkl_power")
+		(at 179.07 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd6592b0-5d8d-4573-84c1-8d219a9a4fbf")
+		(property "Reference" "#PWR018"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7fbaf3e-e533-445d-9dfb-d25ff627ab4b")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 217.17 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe75da99-8d09-4f4b-a78b-d82600e4c32c")
+		(property "Reference" "p29"
+			(at 214.376 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0c940e3-004b-45d0-aa11-9ee5c6f60a9e")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "p29")
+					(unit 1)
 				)
 			)
 		)
