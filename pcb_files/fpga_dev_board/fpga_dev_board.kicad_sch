@@ -12908,6 +12908,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "C:\\KICAD\\lib\\TLV75533PDBVR\\KiCad\\TLV75533PDBVR.kicad_sym"
+			(at 123.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c5c0a766-b7d8-44b9-bd16-49f9b8a92461")
 		)
@@ -13043,6 +13052,15 @@
 			)
 		)
 		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\KICAD\\lib\\ICE40UP5K-SG48ITR\\KiCad\\ICE40UP5K-SG48ITR.kicad_sym"
 			(at 165.1 121.92 0)
 			(effects
 				(font
@@ -13564,6 +13582,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "C:\\KICAD\\lib\\W25Q128JVSIM_TR\\KiCad\\W25Q128JVSIM_TR.kicad_sym"
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "6b18e4c4-d44e-4c92-b9ba-97298d3def71")
 		)
@@ -13707,6 +13734,15 @@
 			)
 		)
 		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\KICAD\\lib\\ICE40UP5K-SG48ITR\\KiCad\\ICE40UP5K-SG48ITR.kicad_sym"
 			(at 91.44 138.43 0)
 			(effects
 				(font
@@ -14410,6 +14446,15 @@
 			)
 		)
 		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\KICAD\\lib\\TLV75533PDBVR\\KiCad\\TLV75533PDBVR.kicad_sym"
 			(at 119.38 59.69 0)
 			(effects
 				(font
@@ -15287,6 +15332,15 @@
 			)
 		)
 		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 270.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\KICAD\\lib\\ICE40UP5K-SG48ITR\\KiCad\\ICE40UP5K-SG48ITR.kicad_sym"
 			(at 270.51 130.81 0)
 			(effects
 				(font
@@ -16929,6 +16983,15 @@
 			)
 		)
 		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\KICAD\\lib\\ICE40UP5K-SG48ITR\\KiCad\\ICE40UP5K-SG48ITR.kicad_sym"
 			(at 68.58 74.93 0)
 			(effects
 				(font

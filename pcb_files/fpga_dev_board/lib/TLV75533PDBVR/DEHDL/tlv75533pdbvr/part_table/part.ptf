@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV75533PDBVR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "RJA", "IPEAK", "VCC_MAX", "VCC_MIN", "IOUT_MAX", "IOUT_MIN", "ICC", "IGND", "RCA", "RJC", "ICCQ", "TECHNOLOGY", "ISHORT";
+{========================================================================================}
+ "Texas Instruments", "TLV75533PDBVR" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "595-TLV75533PDBVR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV75533PDBVR?qs=55YtniHzbhAKEwqeO2xJXQ%3D%3D", "TLV75533PDBVR", "https://www.arrow.com/en/products/tlv75533pdbvr/texas-instruments?utm_currency=USD&region=nac", "LDO Voltage Regulators 500-mA, Low IQ, Small Size, Low Dropout Regulator 5-SOT-23 -40 to 125", "http://www.ti.com/lit/gpn/tlv755p", "1.45 mm", "150", "", "", "", "VOLTAGE REGULATOR SMD", "SOT-23-5", "231.1", "", "", "", "500m", "0m", "", "40u", "", "118.4", "280u", "", "355m"
+END_PART
+
+END.

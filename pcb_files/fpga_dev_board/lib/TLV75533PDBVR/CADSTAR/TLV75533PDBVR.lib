@@ -1,0 +1,18 @@
+.TLV75533PDBVR :1 ;LDO Voltage Regulators 500-mA, Low IQ, Small Size, Low Dropout Regulator 5-SOT-23 -40 to 125
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="IN" 2="GND" 3="EN" 4="NC" 5="OUT"
+*MXP 5
+*DFN TLV75533PDBVR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV75533PDBVR)
+~!Mouser Part Number (595-TLV75533PDBVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV75533PDBVR?qs=55YtniHzbhAKEwqeO2xJXQ%3D%3D)
+~!Arrow Part Number (TLV75533PDBVR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tlv75533pdbvr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tlv755p)
+~!Height (1.45mm)
+~!3D_Model (TLV75533PDBVR)
+TLV75533PDBVR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 
