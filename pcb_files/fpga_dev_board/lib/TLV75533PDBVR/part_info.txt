@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TLV75533PDBVR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2018-06-18 06:32:26
+Downloaded=2026-02-16 05:16:15
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25Q128JVSIM_TR
+D 3V 128M-BIT SERIAL FLASH MEMORY WITH DUAL/QUAD SPI & QPI & DTR
+K
+F http://www.winbond.com/resource-files/w25q128jv%20dtr%20revb%2011042016.pdf
+$ENDCMP
+#
+#End Doc Library

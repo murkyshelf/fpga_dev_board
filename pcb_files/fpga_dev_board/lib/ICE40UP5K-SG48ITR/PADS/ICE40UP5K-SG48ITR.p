@@ -1,0 +1,68 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+ICE40UP5K-SG48ITR QFN50P700X700X100-49N-D I ANA 9 1 0 0 0
+TIMESTAMP 2026.02.16.05.50.41
+"Manufacturer_Name" Lattice Semiconductor
+"Manufacturer_Part_Number" ICE40UP5K-SG48ITR
+"Mouser Part Number" 842-40UP5KSG48ITR
+"Mouser Price/Stock" https://www.mouser.com/Search/Refine.aspx?Keyword=842-40UP5KSG48ITR
+"Arrow Part Number" ICE40UP5K-SG48ITR
+"Arrow Price/Stock" https://www.arrow.com/en/products/ice40up5k-sg48itr/lattice-semiconductor?region=nac
+"Description" FPGA - Field Programmable Gate Array iCE40-UltraPlus, 5280 LUTs, 1.2V
+"Datasheet Link" https://www.arrow.com/en/products/ice40up5k-sg48itr/lattice-semiconductor
+"Geometry.Height" 1mm
+GATE 1 49 0
+ICE40UP5K-SG48ITR
+1 0 U VCCIO_2
+2 0 U IOB_6A
+3 0 U IOB_9B
+4 0 U IOB_8A
+5 0 U VCC_1
+6 0 U IOB_13B
+7 0 U CDONE
+8 0 U CRESET_B
+9 0 U IOB_16A
+10 0 U IOB_18A
+11 0 U IOB_20A
+12 0 U IOB_22A
+13 0 U IOB_24A
+14 0 U IOB_32A_SPI_SO
+15 0 U IOB_34A_SPI_SCK
+16 0 U IOB_35B_SPI_SS
+17 0 U IOB_33B_SPI_SI
+18 0 U IOB_31B
+19 0 U IOB_29B
+20 0 U IOB_25B_G3
+21 0 U IOB_23B
+22 0 U SPI_VCCIO1
+23 0 U IOT_37A
+24 0 U VPP_2V5
+36 0 U IOT_48B
+35 0 U IOT_46B_G0
+34 0 U IOT_44B
+33 0 U VCCIO_0
+32 0 U IOT_43A
+31 0 U IOT_42B
+30 0 U VCC_2
+29 0 U VCCPLL
+28 0 U IOT_41A
+27 0 U IOT_38B
+26 0 U IOT_39A
+25 0 U IOT_36B
+49 0 U EP
+48 0 U IOB_4A
+47 0 U IOB_2A
+46 0 U IOB_0A
+45 0 U IOB_5B
+44 0 U IOB_3B_G6
+43 0 U IOT_49A
+42 0 U IOT_51A
+41 0 U RGB2
+40 0 U RGB1
+39 0 U RGB0
+38 0 U IOT_50B
+37 0 U IOT_45A_G1
+
+*END*
+*REMARK* SamacSys ECAD Model
+920578/1898524/2.50/49/4/Integrated Circuit
