@@ -3212,6 +3212,209 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:VDC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "V"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage source, DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0.254) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.254) (xy -1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.254) (xy -0.254 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.254) (xy 0.762 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 0 1.905 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "VDC_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "VDC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "icebreaker-bitsy-rescue:TACT-pkl_misc"
 			(pin_numbers
 				(hide yes)
@@ -5753,6 +5956,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 38.1) (xy 86.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ce9230-c9bf-4d2a-9545-8ca1e4fd5dc0")
+	)
+	(wire
+		(pts
 			(xy 204.47 96.52) (xy 170.18 96.52)
 		)
 		(stroke
@@ -6030,6 +6243,16 @@
 			(type default)
 		)
 		(uuid "49041959-cd56-44ab-8460-025ce9344162")
+	)
+	(wire
+		(pts
+			(xy 86.36 24.13) (xy 86.36 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0002d8-570a-4491-b5bc-475abf8616b9")
 	)
 	(wire
 		(pts
@@ -8849,6 +9072,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 50.8 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1751bbd-e1e5-4bce-b233-ba4dd758f590")
 		)
@@ -8930,6 +9162,15 @@
 		)
 		(property "Key" "cap-cer-0402-100n"
 			(at 254 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 45.72 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,6 +9266,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 40.64 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80dcb172-e6b7-4871-8f53-cb0228b1769a")
 		)
@@ -9047,7 +9297,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005a6d32bc")
 		(property "Reference" "P1_C2"
 			(at 109.855 31.75 0)
@@ -9104,6 +9354,15 @@
 		)
 		(property "Key" "cap-cer-0603-4u7"
 			(at 71.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 109.22 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9198,7 +9457,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005a6d32d2")
 		(property "Reference" "P1_C3"
 			(at 137.795 31.75 0)
@@ -9255,6 +9514,15 @@
 		)
 		(property "Key" "cap-cer-0603-4u7"
 			(at 68.58 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 137.16 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9414,7 +9682,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005a6d32f5")
 		(property "Reference" "P2_C4"
 			(at 104.775 62.23 0)
@@ -9471,6 +9739,15 @@
 		)
 		(property "Key" "cap-cer-0603-4u7"
 			(at -33.02 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 104.14 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9565,7 +9842,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005a6d330b")
 		(property "Reference" "P2_C5"
 			(at 136.525 62.23 0)
@@ -9622,6 +9899,15 @@
 		)
 		(property "Key" "cap-cer-0603-4u7"
 			(at -31.75 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 135.89 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,6 +10130,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 68.58 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8d83ceb-bedd-4079-9d04-888ccfee3721")
 		)
@@ -9932,6 +10227,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 63.5 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8c59306-3303-4923-ad29-2a4752f2b373")
 		)
@@ -10013,6 +10317,15 @@
 		)
 		(property "Key" "cap-cer-0603-10u"
 			(at 245.11 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 53.34 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,6 +10486,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 35.56 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b37a2500-0b41-4098-af92-52b3daddfb4d")
 		)
@@ -10261,6 +10583,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 30.48 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc7ca6e4-c423-4432-87cb-923808d6ea7e")
 		)
@@ -10342,6 +10673,15 @@
 		)
 		(property "Key" "cap-cer-0402-1u"
 			(at 213.36 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 25.4 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10564,6 +10904,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 96.52 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53c9dc47-573d-41db-9b6b-6f9a18afa788")
 		)
@@ -10645,6 +10994,15 @@
 		)
 		(property "Key" "cap-cer-0402-1u"
 			(at 127 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 96.52 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,6 +11098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 55.88 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c893da43-a838-4679-9c00-e4e23a6b107b")
 		)
@@ -10827,7 +11194,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005d57921e")
 		(property "Reference" "SW1"
 			(at 227.33 74.93 0)
@@ -10873,6 +11240,15 @@
 		)
 		(property "Key" "sw-tact-top-4.2-2.8"
 			(at -102.87 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 227.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,6 +11334,15 @@
 		)
 		(property "Key" "res-0402-10k"
 			(at 554.99 -163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 234.95 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11115,6 +11500,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 175.26 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bcb40121-bc92-40b7-b1ce-dcf7e65232b2")
 		)
@@ -11184,6 +11578,15 @@
 		)
 		(property "Key" "conn-smd-usb-c-2"
 			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 194.31 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11313,6 +11716,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26529024-42ca-4037-8d84-3318de9ea324")
 		)
@@ -11390,6 +11802,15 @@
 			)
 		)
 		(property "Key" "cap-cer-0402-100n"
+			(at 20.32 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 20.32 173.99 90)
 			(effects
 				(font
@@ -12266,6 +12687,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 101.6 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d3a1288-66f7-4458-8a07-6af7d8c8a4c7")
 		)
@@ -12399,6 +12829,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ef8773e-cde8-481d-b8a9-4e594f2d5e30")
 		)
@@ -12464,6 +12903,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 121.92 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "472db390-6b22-49b5-996d-1badada45352")
 		)
@@ -12483,7 +12931,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "16488ea4-c084-420c-a563-ebe5bfd9a0c5")
 		(property "Reference" "SW2"
 			(at 260.35 74.93 0)
@@ -12529,6 +12977,15 @@
 		)
 		(property "Key" "sw-tact-top-4.2-2.8"
 			(at -69.85 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 260.35 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12614,6 +13071,15 @@
 		)
 		(property "Key" "res-0402-2k2"
 			(at 398.78 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 172.72 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12755,6 +13221,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a467f1f-84d9-48d5-8591-d02aa37276c0")
 		)
@@ -12839,6 +13314,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 261.62 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc3fb7e1-2ab2-4258-9c82-bd67207765d4")
 		)
@@ -12861,7 +13345,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2121212f-16a8-411d-a1dc-a1a78853f384")
 		(property "Reference" "U2"
@@ -12908,7 +13392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\KICAD\\lib\\TLV75533PDBVR\\KiCad\\TLV75533PDBVR.kicad_sym"
+		(property "Sim.Library" ""
 			(at 123.19 29.21 0)
 			(effects
 				(font
@@ -12994,6 +13478,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 121.92 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18a7542b-5cd4-4ff2-b115-99b78c460ba8")
 		)
@@ -13013,7 +13506,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "25b2a27f-d658-44f7-81ec-ac0a68e3528e")
 		(property "Reference" "U1"
 			(at 152.654 137.16 0)
@@ -13060,7 +13553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\KICAD\\lib\\ICE40UP5K-SG48ITR\\KiCad\\ICE40UP5K-SG48ITR.kicad_sym"
+		(property "Sim.Library" ""
 			(at 165.1 121.92 0)
 			(effects
 				(font
@@ -13232,7 +13725,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "26c09e82-7ca9-4925-bf11-61017ed42f29")
 		(property "Reference" "R5"
 			(at 166.37 96.52 90)
@@ -13288,6 +13781,15 @@
 		)
 		(property "Key" "res-0402-1m"
 			(at 289.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 166.37 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13447,6 +13949,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 260.35 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60d6be52-931f-46a3-85f0-62708436fc57")
 		)
@@ -13457,6 +13968,72 @@
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "B_C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a1c8cbb-80d8-4eb9-a75e-8f46b881b1a7")
+		(property "Reference" "#PWR08"
+			(at 86.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eab2ec7a-6590-4144-9c77-865928a98c48")
+		)
+		(instances
+			(project ""
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13535,7 +14112,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4feff450-1163-45f0-80d8-c622193a3548")
 		(property "Reference" "U4"
 			(at 39.624 187.198 0)
@@ -13582,7 +14159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\KICAD\\lib\\W25Q128JVSIM_TR\\KiCad\\W25Q128JVSIM_TR.kicad_sym"
+		(property "Sim.Library" ""
 			(at 35.56 175.26 0)
 			(effects
 				(font
@@ -13677,6 +14254,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 217.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "068a1728-d3f5-4417-b5a9-ed76960528bc")
 		)
@@ -13696,7 +14282,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6018b4bd-2ff2-4623-8f4d-18ecc86059b7")
 		(property "Reference" "U1"
@@ -13742,7 +14328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\KICAD\\lib\\ICE40UP5K-SG48ITR\\KiCad\\ICE40UP5K-SG48ITR.kicad_sym"
+		(property "Sim.Library" ""
 			(at 91.44 138.43 0)
 			(effects
 				(font
@@ -13960,6 +14546,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 220.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22ede986-d18a-4336-bd17-fceb7bc3eb8c")
 		)
@@ -14028,6 +14623,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f88993e-ea48-452d-9479-932fc8512e4d")
 		)
@@ -14035,6 +14639,71 @@
 			(project "fpga_dev_board"
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "p30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "icebreaker-bitsy-rescue:VIN-pkl_power")
+		(at 86.36 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f513112-3e89-4ba2-9024-9a1f5cb2d364")
+		(property "Reference" "#PWR09"
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 86.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8d9fd83-68d7-4e06-8706-69b3252d62a5")
+		)
+		(instances
+			(project "fpga_dev_board"
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14110,6 +14779,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 76.2 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c3f34da-7b64-4664-ad96-3c0f79e48e78")
 		)
@@ -14170,6 +14848,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 143.51 163.83 0)
 			(effects
 				(font
@@ -14243,6 +14930,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 121.92 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a644a5dc-a20b-43e5-8afd-6735c191e56b")
 		)
@@ -14300,6 +14996,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 133.35 181.61 0)
 			(effects
 				(font
@@ -14407,7 +15112,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "89ee0c5e-d6ab-4182-a770-719c9b7e20a8")
 		(property "Reference" "U3"
@@ -14418,7 +15123,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV75533PDBV"
+		(property "Value" "TLV75512PDBV"
 			(at 119.38 53.34 0)
 			(effects
 				(font
@@ -14454,7 +15159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\KICAD\\lib\\TLV75533PDBVR\\KiCad\\TLV75533PDBVR.kicad_sym"
+		(property "Sim.Library" ""
 			(at 119.38 59.69 0)
 			(effects
 				(font
@@ -14605,6 +15310,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6072e29a-7df5-4699-8f7a-89f1b6e3493a")
 		)
@@ -14662,6 +15376,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 44.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 44.45 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14745,6 +15468,15 @@
 				(justify bottom)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9600c5c-7552-4a7c-92c2-2573310fe471")
 		)
@@ -14805,6 +15537,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 44.45 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15274,6 +16015,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 217.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af1a2ff9-64c4-4977-b56a-97f1f8e2301d")
 		)
@@ -15293,7 +16043,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c399e644-ebeb-4803-82e2-79a6f69bedc9")
 		(property "Reference" "U1"
 			(at 259.08 160.02 0)
@@ -15340,7 +16090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\KICAD\\lib\\ICE40UP5K-SG48ITR\\KiCad\\ICE40UP5K-SG48ITR.kicad_sym"
+		(property "Sim.Library" ""
 			(at 270.51 130.81 0)
 			(effects
 				(font
@@ -15557,6 +16307,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 193.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "8939081d-6b62-46a7-82f5-923ebe51405b")
 		)
@@ -15631,6 +16390,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac80016c-fd42-4496-a47a-b81c0b89d714")
 		)
@@ -15688,6 +16456,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 44.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 44.45 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15763,6 +16540,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "632d07c4-9103-4ad7-9994-6a561ae27ed5")
 		)
@@ -15820,6 +16606,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 143.51 158.75 0)
 			(effects
 				(font
@@ -15905,6 +16700,15 @@
 		)
 		(property "Key" "cap-cer-0402-100n"
 			(at 13.97 -105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 146.05 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16065,6 +16869,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 227.33 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4419674e-23ce-497a-a876-a610837ec8e8")
 		)
@@ -16087,7 +16900,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d5a12928-87a5-4b6c-ace5-94f493a04a55")
 		(property "Reference" "R2"
 			(at 166.37 71.12 90)
@@ -16143,6 +16956,15 @@
 		)
 		(property "Key" "res-0402-1m"
 			(at 123.19 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 168.91 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16225,6 +17047,15 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 168.91 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2e5619f-b0ed-4f1d-ab36-2b499d847377")
 		)
@@ -16285,6 +17116,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 189.23 134.62 0)
 			(effects
 				(font
@@ -16391,6 +17231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 43.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5d946425-952c-4f58-9cd3-ede083be52d8")
 		)
@@ -16476,6 +17325,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 267.97 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d7dc6a3-208f-47e8-a563-4bab5343d996")
 		)
@@ -16498,7 +17356,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dd6337ee-0dfb-4217-be60-d6d053bafec2")
 		(property "Reference" "R4"
 			(at 166.37 88.9 90)
@@ -16554,6 +17412,15 @@
 		)
 		(property "Key" "res-0402-1m"
 			(at 289.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 166.37 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16636,6 +17503,15 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 160.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "933371c6-5733-4e02-8327-7479b444f26f")
 		)
@@ -16703,6 +17579,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 44.45 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "459681fc-73cb-4326-a389-5b81ba6642cd")
 		)
@@ -16713,6 +17598,113 @@
 			(project ""
 				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at 86.36 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e8f6e66f-53cb-4f1e-bef2-9a79d863f813")
+		(property "Reference" "V1"
+			(at 90.17 31.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5"
+			(at 90.17 34.1601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 86.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a234136-df85-4344-94a0-147b5f0e77b8")
+		)
+		(pin "1"
+			(uuid "d48d7acd-5dce-40e8-a7f5-68f6f051bbbc")
+		)
+		(instances
+			(project ""
+				(path "/45595bc5-4b41-480e-827b-4e65011f83da"
+					(reference "V1")
 					(unit 1)
 				)
 			)
@@ -16904,6 +17896,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 214.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "cd621ae2-21c9-489a-b063-4729730d5b9e")
 		)
@@ -16944,7 +17945,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fb59d7a4-4d3b-4e07-ae26-8ccd1202a12d")
 		(property "Reference" "U1"
 			(at 57.912 89.662 0)
@@ -16991,7 +17992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\KICAD\\lib\\ICE40UP5K-SG48ITR\\KiCad\\ICE40UP5K-SG48ITR.kicad_sym"
+		(property "Sim.Library" ""
 			(at 68.58 74.93 0)
 			(effects
 				(font
@@ -17266,6 +18267,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 217.17 142.24 0)
 			(effects
 				(font

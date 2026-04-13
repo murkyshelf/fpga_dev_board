@@ -1,0 +1,6 @@
+# This PCF file depends on your specific dev board.
+# Update the pin numbers correctly.
+
+set_io LED  39
+set_io wifi_tx 14
+set_io wifi_rx 15
