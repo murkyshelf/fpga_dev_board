@@ -1,6 +1,6 @@
-# This PCF file depends on your specific dev board.
-# Update the pin numbers correctly.
-
-set_io LED  39
-set_io wifi_tx 14
-set_io wifi_rx 15
+# Custom iCE40UP5K-SG48 FPGA dev board
+# D1 blue user LED:
+#   schematic net /led
+#   U1 pin 39, function RGB0
+#   LED anode is tied to +3V3, so the FPGA output is active-low.
+set_io led 39

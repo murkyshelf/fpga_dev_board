@@ -1,0 +1,4 @@
+OK PONG
+OK JEDEC=800000 SIZE=0
+Erasing 0x1A000 bytes at 0x0
+error: ERASE 0 1A000: ERR ERASE status=3
